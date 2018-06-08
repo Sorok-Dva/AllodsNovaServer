@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.rules.RuleResource>
+    <Header>
+        <resourceId>214896647</resourceId>
+    </Header>
+    <name href="ScheduleLuckyTime.txt"/>
+    <description href="ScheduleLuckyTime.Description.txt"/>
+    <timeTable href="TimePeriodTable.xdb#xpointer(/timeperiod.TimePeriodTable)"/>
+	<effects>
+		<Item type="itemService.elements.EffectHappyTime">
+			<defaultScalers>
+				<Item>MobExp</Item>
+				<Item>QuestExp</Item>
+				<Item>GoldAndTrashDrop</Item>
+				<Item>WorldDrop</Item>
+				<Item>QuestMoney</Item>
+			</defaultScalers>
+			<factor>3</factor>
+			<clientData href="HappyDay.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
+		</Item>
+		<Item type="itemService.elements.EffectHappyTime">
+			<defaultScalers>
+				<Item>PersonalDrop</Item>
+			</defaultScalers>
+			<factor>4</factor>
+		</Item>
+		<Item type="itemService.elements.EffectHappyTime">
+			<defaultScalers>
+				<Item>Authority</Item>
+				<Item>Reputation</Item>
+				<Item>QuestLoot</Item>
+			</defaultScalers>
+			<factor>9</factor>
+		</Item>
+	</effects>
+    <saveable>false</saveable>
+    <internal>true</internal>
+    <ruleKind>LuckyDays</ruleKind>
+</gameMechanics.world.rules.RuleResource>

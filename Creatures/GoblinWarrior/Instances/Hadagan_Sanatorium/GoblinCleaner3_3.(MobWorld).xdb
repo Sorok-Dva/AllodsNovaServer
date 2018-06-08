@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.mob.MobWorld>
+	<Header>
+		<resourceId>241006595</resourceId>
+	</Header>
+	<name href="GoblinCleaner3_3_Name.txt" />
+	<visMob href="/Creatures/GoblinCleaner/GoblinCleaner.(VisualMob).xdb#xpointer(/VisualMob)" />
+	<kind href="/Mechanics/Creatures/GoblinWarrior/GoblinWarriorKind.(MobKind).xdb#xpointer(/gameMechanics.world.mob.MobKind)" />
+	<walkSpeed>2</walkSpeed>
+	<faction href="/World/Factions/Empire.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+	<quality href="/Mechanics/MobQualities/Common.xdb#xpointer(/gameMechanics.world.mob.MobQuality)" />
+	<interactions>
+		<vendorTable href="/Mechanics/Spells/Cheats/Vendors/InstVendor/VendorTable.(VendorTable).xdb#xpointer(/gameMechanics.world.mob.interaction.VendorTable)" />
+		<isMailBox>false</isMailBox>
+		<auction href="" />
+	</interactions>
+	<levelMax type="gameMechanics.formulas.IntConstantValue">
+		<value>3</value>
+	</levelMax>
+	<levelMin type="gameMechanics.formulas.IntConstantValue">
+		<value>3</value>
+	</levelMin>
+</gameMechanics.world.mob.MobWorld>
