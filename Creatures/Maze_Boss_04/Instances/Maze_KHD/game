@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.mob.MobWorld>
+	<Header>
+		<resourceId>178464787</resourceId>
+	</Header>
+	<name href="Maze_Boss_04_Name.txt" />
+	<visMob href="/Creatures/MindFlayerWarriorMazeBoss/MindFlayerWarriormazeBoss.(VisualMob).xdb#xpointer(/VisualMob)" />
+	<kind href="/Mechanics/Creatures/Maze_Boss_04/Maze_Boss_04Kind.(MobKind).xdb#xpointer(/gameMechanics.world.mob.MobKind)" />
+	<walkSpeed>2</walkSpeed>
+	<faction href="/World/Factions/Wild.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+	<lootTable href="/World/LootTables/AllodsNova/Event/Easter/EasterBoss.xdb#xpointer(/gameMechanics.constructor.schemes.item.LootTableResource)" />
+	
+	<quality href="/Mechanics/MobQualities/Boss.xdb#xpointer(/gameMechanics.world.mob.MobQuality)" />
+	<leashData>
+		<globalLeash>false</globalLeash>
+		<localLeash>false</localLeash>
+	</leashData>
+	<personalAbilities>
+		<Item href="/Creatures/GolemJunesMid/Instances/Maze_KHD/NoGrantBuffKill.(AbilityResource).xdb#xpointer(/gameMechanics.constructor.schemes.ability.AbilityResource)" />
+		<Item href="/Mechanics/Spells/QuestSpells/BossKill/HeroicBossKill.(AbilityResource).xdb#xpointer(/gameMechanics.constructor.schemes.ability.AbilityResource)" />
+	</personalAbilities>
+	<levelMax type="gameMechanics.formulas.IntConstantValue">
+		<value>51</value>
+	</levelMax>
+	<levelMin type="gameMechanics.formulas.IntConstantValue">
+		<value>51</value>
+	</levelMin>
+</gameMechanics.world.mob.MobWorld>

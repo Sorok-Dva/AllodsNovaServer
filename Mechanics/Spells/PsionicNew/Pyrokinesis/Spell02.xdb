@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
+	<Header>
+		<resourceId>296320009</resourceId>
+		<Prototype href="Spell.xdb#xpointer(/gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget)" />
+		<Variables>
+			<minDama_1>7.7440885</minDama_1>
+			<minDamage>7.7440885</minDamage>
+			<minDama_2>26.17607</minDama_2>
+			<maxDama_1>7.7440885</maxDama_1>
+			<maxDamage>7.7440885</maxDamage>
+			<maxDama_2>26.17607</maxDama_2>
+		</Variables>
+	</Header>
+	<Name href="Spell01_Name.txt" />
+	<Description href="Spell01_Desc.txt" />
+	<descVars>
+		<Item>
+			<name>var0</name>
+			<value>26.17607</value>
+			<scaler>IntSpell</scaler>
+		</Item>
+		<Item>
+			<name>var1</name>
+			<value>7.7440885</value>
+			<scaler>IntSpell</scaler>
+		</Item>
+	</descVars>
+</gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
