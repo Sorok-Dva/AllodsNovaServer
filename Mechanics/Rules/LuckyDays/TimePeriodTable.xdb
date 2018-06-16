@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<timeperiod.TimePeriodTable>
+	<Header>
+		<resourceId>221720614</resourceId>
+	</Header>
+	<timePeriods>
+		<Item type="timeperiod.TimePeriodWeekly">
+			<day>4</day>
+			<hour>20</hour>
+			<duration>187200000</duration>
+		</Item>
+	</timePeriods>
+  <ruleKind>LuckyDays</ruleKind>
+</timeperiod.TimePeriodTable>

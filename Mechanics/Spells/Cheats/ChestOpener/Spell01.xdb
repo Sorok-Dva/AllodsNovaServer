@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
+	<Header>
+		<resourceId>192467970</resourceId>
+	</Header>
+	<Name href="Spell_Name.txt" />
+	<Description href="Spell_Desc.txt" />
+	<image href="/Interface/Icons/Special/Emoticons/Moods/Predatory.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<nameTemplate href="Spell_Name.txt.template" />
+	<descTemplate href="Spell_Desc.txt.template" />
+	<prepareDuration>3000</prepareDuration>
+	<immutablePrepareDuration>false</immutablePrepareDuration>
+	<mechanics type="gameMechanics.constructor.schemes.spell.SpellMechanics">
+		<cooldown>
+			<stage>Launch</stage>
+			<duration>21600000</duration>
+			<group href="" />
+		</cooldown>
+		<casterImpacts>
+			<Item type="clientCmds.cmds.ImpactConsoleCmd">
+				<command>avatarPopulation.service.impl.matchMakingImpl.cmds.CmdClearIEVisits</command>
+			</Item>
+		</casterImpacts>
+	</mechanics>
+</gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>

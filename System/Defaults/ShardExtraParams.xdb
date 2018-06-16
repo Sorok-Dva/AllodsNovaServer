@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<basement.server.config.ShardExtraParams>
+
+	<Header>
+		<resourceId>295620609</resourceId>
+	</Header>
+	<build>FinalRelease</build>
+
+	<levelCap>56</levelCap>
+
+	<realmMode>PvE</realmMode>
+
+	<monetization>F2P</monetization>
+
+	<contentPack>Base</contentPack>
+
+	<pathfinderType>Real</pathfinderType>
+
+	<msgPublisherLock>true</msgPublisherLock>
+
+	<abonentsCounter>false</abonentsCounter>
+	<abonentsCounterPeriod>60000</abonentsCounterPeriod>
+
+	<disableTWar>false</disableTWar>
+	<disableMatchMaking>false</disableMatchMaking>
+
+	<allowDiffFactions>true</allowDiffFactions>
+
+	<rates>
+		<mobExpRate>2</mobExpRate>
+		<questExpRate>2</questExpRate>
+		<rewardPriceRate>2</rewardPriceRate>
+		<tableRolls>2</tableRolls>
+		<gatheringSkillRate>1</gatheringSkillRate>
+		<gatheringDropRate>1</gatheringDropRate>
+		<craftingSkillRate>3</craftingSkillRate>
+		<reputationRate>4</reputationRate>
+		<zoneDropRate>2</zoneDropRate>
+		<shipBuildRate>1</shipBuildRate>
+		<shipBuildReduceRate>4</shipBuildReduceRate>
+	</rates>
+
+	<forbiddenFactions />
+
+	<forbiddenRaces />
+
+	<forbiddenClasses />
+
+	<denyRuleSchedule>false</denyRuleSchedule>
+	<luckyTimeSchedulingEnabled>true</luckyTimeSchedulingEnabled>
+
+	<additionalQuestRewards>true</additionalQuestRewards>
+
+	<currencyExchange enabled="true"/>
+
+	<scheduleGC>true</scheduleGC>
+
+	<useOldMsgProcessors>false</useOldMsgProcessors>
+	<useMsgProcessorsStatistics>true</useMsgProcessorsStatistics>
+
+	<maxCleanupTime>600000</maxCleanupTime>
+
+	<enableClientNetStats>true</enableClientNetStats>
+	<enableInterShardNetStats>true</enableInterShardNetStats>
+	<multithreadItemService>false</multithreadItemService>
+
+    <lags>
+        <Item>
+            <name>client</name>
+            <lag>10</lag><!-- 40 -->
+            <dispersion>0</dispersion><!-- 15 -->
+        </Item>
+        <Item>
+            <name>intershard</name>
+            <lag>0</lag><!-- 10 -->
+            <dispersion>0</dispersion><!-- 0 -->
+        </Item>
+    </lags>
+
+	<netParams>
+		<reconnectionTimeout>10</reconnectionTimeout>
+	</netParams>
+
+    <avatarAlarmSize>1048576</avatarAlarmSize>
+
+</basement.server.config.ShardExtraParams>
