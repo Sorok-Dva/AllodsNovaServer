@@ -3,14 +3,34 @@
 	<Header>
 		<resourceId>20174204</resourceId>
 	</Header>
-	<name href="LevelUp56.Name.txt" />
-	<description href="LevelUp56.Description.txt" />
-	<image href="/Interface/Icons/Mounts/SpellsMounts/AccumulationPowerSparks.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
-	<source>Vendor</source>
-	<budgetUsage>0</budgetUsage>
-	<budget>0</budget>
-	<itemClass href="/Mechanics/ItemClasses/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemClass)" />
-	<spell href="/Mechanics/Spells/LevelUp/LevelUp56.xdb#xpointer(/gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf)" />
-	<quality href="/Mechanics/ItemQualities/Legendary.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemQuality)" />
-	<binding>BindOnPickup</binding>
+    <category href="/Mechanics/ItemCategories/Misc/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)"/>
+    <name href="/Items/LevelUp/LevelUp56_Name.txt"/>
+    <description href="/Items/LevelUp/LevelUp56_Description.txt"/>
+    <image href="/Interface/Icons/Mounts/SpellsMounts/AccumulationPowerSparks.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)"/>
+    <itemClass href="/Mechanics/ItemClasses/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemClass)"/>
+    <itemMallType>NOTITEMMALLABLE</itemMallType>
+    <level>1</level>
+    <lifeLengthCap>0</lifeLengthCap>
+    <ownershipLimit>0</ownershipLimit>
+    <quality href="/Mechanics/ItemQualities/Legendary.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemQuality)"/>
+    <requiredLevel>1</requiredLevel>
+    <requiredReputation>Hostility</requiredReputation>
+    <showItemContextAction>Default</showItemContextAction>
+    <slot>UNDRESSABLE</slot>
+    <source>Quest</source>
+    <spell href="/Mechanics/Spells/LevelUp/LevelUp56.xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)"/>
+    <stackLimit>1</stackLimit>
+    <sysName></sysName>
+    <canBeDeposited>false</canBeDeposited>
+    <clearAllOnTry>false</clearAllOnTry>
+    <forceShowQuality>false</forceShowQuality>
+    <ignoreDressSlotLevel>false</ignoreDressSlotLevel>
+    <isHideLifestyleWhileNotEquipped>false</isHideLifestyleWhileNotEquipped>
+    <isProbe>false</isProbe>
+    <isQuestRelated>false</isQuestRelated>
+    <needCheckPredicates>true</needCheckPredicates>
+    <ritual>false</ritual>
+    <showOnlyIconInLink>false</showOnlyIconInLink>
+    <soldForAltCurrency>false</soldForAltCurrency>
+    <binding>BindOnPickup</binding>
 </gameMechanics.constructor.schemes.item.ItemResource>
