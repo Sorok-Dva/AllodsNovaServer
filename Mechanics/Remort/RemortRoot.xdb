@@ -44,20 +44,10 @@
 			<currency href="/Mechanics/AlternativeCurrencies/RemortPoint.(AlternativeCurrency).xdb#xpointer(/gameMechanics.constructor.schemes.item.AlternativeCurrency)" />
 			<count>1</count>
 		</Item>
-		<Item type="gameMechanics.elements.predicates.PredicateHasMoney">
-			<sumCalcer type="gameMechanics.elements.calcers.LongData">
-				<value>15000000</value>
-			</sumCalcer>
-		</Item>
 	</createConditions>
 	<resetConditions>
 		<Item type="gameMechanics.constructor.basicElements.PredicateNot">
 			<predicate type="gameMechanics.elements.predicates.PredicateIsRemort" />
-		</Item>
-		<Item type="gameMechanics.elements.predicates.PredicateHasMoney">
-			<sumCalcer type="gameMechanics.elements.calcers.LongData">
-				<value>15000000</value>
-			</sumCalcer>
 		</Item>
 	</resetConditions>
 	<impactsOnCreate>
@@ -67,19 +57,7 @@
 				<value>-1</value>
 			</sumCalcer>
 		</Item>
-		<Item type="gameMechanics.elements.impacts.ImpactAddMoney">
-			<sumCalcer type="gameMechanics.elements.calcers.LongData">
-				<value>-15000000</value>
-			</sumCalcer>
-		</Item>
 	</impactsOnCreate>
-	<impactsOnReset>
-		<Item type="gameMechanics.elements.impacts.ImpactAddMoney">
-			<sumCalcer type="gameMechanics.elements.calcers.LongData">
-				<value>-15000000</value>
-			</sumCalcer>
-		</Item>
-	</impactsOnReset>
 	<remortAbilityConditions>
 		<Item type="gameMechanics.constructor.basicElements.PredicateNot">
 			<predicate type="gameMechanics.elements.predicates.PredicateCreatureLevel">

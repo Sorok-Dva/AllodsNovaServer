@@ -7,18 +7,15 @@
 	<Description href="" />
 	<nameTemplate href="" />
 	<descTemplate href="" />
-	<prepareDuration>15000</prepareDuration>
+	<prepareDuration>10000</prepareDuration>
 	<targetType>STTSelf</targetType>
 	<mechanics type="gameMechanics.constructor.schemes.spell.SpellMechanics">
-		<cooldown>
-			<duration>600000</duration>
-		</cooldown>
 		<casterConditions>
 			<Item type="gameMechanics.elements.predicates.PredicateNotInCombat" />
 			<Item type="gameMechanics.constructor.basicElements.PredicateNot">
 				<predicate type="gameMechanics.elements.predicates.PredicateCreatureLevel">
 					<minLevel type="gameMechanics.formulas.IntConstantValue">
-						<value>5</value>
+						<value>10</value>
 					</minLevel>
 				</predicate>
 			</Item>
@@ -27,11 +24,162 @@
 			<Item type="gameMechanics.elements.resources.ResourceActiveItem" />
 		</casterResources>
 		<casterImpacts>
+			<Item type="gameMechanics.elements.impacts.ImpactTeleportLocFaction">
+				<factionLocators>
+					<Item>
+						<faction href="/World/Factions/League.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+						<locator>
+							<scriptID>KaniaCapital</scriptID>
+							<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+						</locator>
+						<yaw type="constructor.basicElements.AngleRadians">
+							<value>0</value>
+						</yaw>
+					</Item>
+					<Item>
+						<faction href="/World/Factions/Empire.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+						<locator>
+							<scriptID>Capital_AE1_Teleport</scriptID>
+							<map href="/Maps/Hadagan/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+						</locator>
+						<yaw type="constructor.basicElements.AngleRadians">
+							<value>0</value>
+						</yaw>
+					</Item>
+				</factionLocators>
+			</Item>
 			<Item type="gameMechanics.elements.impacts.ImpactAddExperience">
 				<calcer type="gameMechanics.elements.calcers.CalcerRemainingExpirience">
 					<level>56</level>
 				</calcer>
 			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/WorldDrop/SkilledItemsBox/UncommonBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>36</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/EarringUnlock/EpicTokenEar.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Journals/JournalsPage-5.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Journals/JournalsPage-4.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Journals/JournalsPage-3.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Journals/JournalsPage-2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Journals/JournalsPage-1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/SpellPoints/AddSpellPoint1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/SpellPoints/AddSpellPoint2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/SpellPoints/AddSpellPoint3.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Stats/StatGainer1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Stats/StatGainer2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Stats/StatGainer3.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Stats/StatGainer4.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/CollectorsEdition/EU_FreeStarterPack_1.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/NewcomersChest/AdvanceBoxNew/5/AdvanceBoxNew_05.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Halo/Willpower04.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Halo/StrengthOfMind03.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Halo/LightForce02.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/Halo/HealthResumptionScroll01.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/Mechanics/Ammo/AmmoRare.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>10000</count>
+			</Item>
 		</casterImpacts>
 	</mechanics>
 </gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
+
