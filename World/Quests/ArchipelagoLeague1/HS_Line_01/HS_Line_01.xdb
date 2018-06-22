@@ -66,12 +66,6 @@
 		<experience>2</experience>
 		<money>100000</money>
 		<reputations />
-		
-		<mandatoryItems>
-			<Item>
-				<item href="/Mechanics/Mounts/1stGrade/Items/GrayWolf.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</Item>
-		</mandatoryItems>
 	</reward>
 	<secretSequence>true</secretSequence>
 	<tutorial>false</tutorial>
