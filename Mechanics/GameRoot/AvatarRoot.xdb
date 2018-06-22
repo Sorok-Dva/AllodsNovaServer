@@ -392,8 +392,6 @@
 				</Item>
 			</impactsIf>
 		</Item>
-<<<<<<< HEAD
-=======
 		<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
 			<predicates>
 				<Item type="gameMechanics.constructor.basicElements.PredicateAnd">
@@ -415,7 +413,6 @@
 				</Item>
 			</impactsIf>
 		</Item>
->>>>>>> 91dc68a65a602d9fa370a191b6802873dd3f7c5e
 	</onloadImpacts>
 	<pvpKillNotification href="ClientData/Progress/ProgressKillsCounterData.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
 	<statPointsPerLevel type="gameMechanics.elements.calcers.CalcerIf">
