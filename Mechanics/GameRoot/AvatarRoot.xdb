@@ -396,42 +396,20 @@
 			<predicates>
 				<Item type="gameMechanics.constructor.basicElements.PredicateAnd">
 					<predicates>
-						<Item type="gameMechanics.elements.predicates.PredicateIsRemort" />
-						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
-							<predicate type="gameMechanics.elements.predicates.PredicateCreatureLevel">
-								<minLevel type="gameMechanics.formulas.IntConstantValue">
-									<value>45</value>
-								</minLevel>
-							</predicate>
+						<Item type="gameMechanics.elements.predicates.PredicateCreatureLevel">
+							<minLevel type="gameMechanics.formulas.IntConstantValue">
+								<value>1</value>
+							</minLevel>
 						</Item>
 					</predicates>
 				</Item>
 			</predicates>
 			<impactsIf>
-				<Item type="gameMechanics.elements.impacts.ImpactAddExperience">
-					<calcer type="gameMechanics.elements.calcers.CalcerRemainingExpirience">
-						<level>51</level>
-					</calcer>
-				</Item>
 				<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 					<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-						<item href="/Items/WorldDrop/SkilledItemsBox/UncommonBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						<item href="/Items/LevelUp/LevelUp56.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 					</item>
-					<count>18</count>
-				</Item>
-			</impactsIf>
-		</Item>
-		<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
-			<predicates>
-				<Item type="gameMechanics.constructor.basicElements.PredicateNot">
-					<predicate type="gameMechanics.elements.predicates.PredicateHasSpell">
-						<spell href="/Mechanics/Spells/Cheats/ChestOpener/Spell01.xdb"/>
-					</predicate>
-				</Item>
-			</predicates>
-			<impactsIf>
-				<Item type="gameMechanics.elements.impacts.ImpactLearnSpell">
-					<spell href="/Mechanics/Spells/Cheats/ChestOpener/Spell01.xdb"/>
+					<count>1</count>
 				</Item>
 			</impactsIf>
 		</Item>
@@ -456,6 +434,7 @@
 			<secondaryStatGain>0</secondaryStatGain>
 			<talentPoints>1</talentPoints>
 			<fairyExperienceForLevel>0</fairyExperienceForLevel>
+			<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
 		</Item>
 		<Item>
 			<level>2</level>
@@ -480,7 +459,7 @@
 			<secondaryStatGain>1</secondaryStatGain>
 			<talentPoints>2</talentPoints>
 			<fairyExperienceForLevel>100</fairyExperienceForLevel>
-			<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			
 		</Item>
 		<Item>
 			<level>5</level>
@@ -913,7 +892,7 @@
 		<Item>
 			<currency href="/Mechanics/AlternativeCurrencies/Myrrh.xdb#xpointer(/gameMechanics.constructor.schemes.item.AlternativeCurrency)" />
 			<count type="gameMechanics.elements.calcers.FloatData">
-				<value>500000</value>
+				<value>5000000</value>
 			</count>
 		</Item>
 		<Item>
@@ -937,7 +916,7 @@
 		<Item>
 			<currency href="/Mechanics/AlternativeCurrencies/WorldChat.xdb#xpointer(/gameMechanics.constructor.schemes.item.AlternativeCurrency)" />
 			<count type="gameMechanics.elements.calcers.FloatData">
-				<value>500</value>
+				<value>50000</value>
 			</count>
 		</Item>
 	</startingCurrencies>
