@@ -12,6 +12,11 @@
 		<minute>2</minute>
 	</prepareTime>
 	<waitBuff href="/Mechanics/InstancedEventResource/MM_Maze/MazeWaitBuff.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+	<impactsOnAvatars>
+		<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
+            <buff href="/Mechanics/Spells/BG_Balance/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+        </Item>
+	</impactsOnAvatars>
 	<impactsOnStart>
 		<Item type="gameMechanics.elements.impacts.ImpactsDeferredGeneric">
 			<delay>120000</delay>
@@ -678,5 +683,5 @@
 		<map href="/Maps/Maze_KHD/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 	</eventType>
 	<activeEventJoinPeriod>300000</activeEventJoinPeriod>
-	<maxVisitsPerDay>1</maxVisitsPerDay>
+	<maxVisitsPerDay>0</maxVisitsPerDay>
 </avatarPopulation.service.impl.matchMakingImpl.scheme.InstancedEventResource>

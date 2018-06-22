@@ -100,6 +100,9 @@
 		</entrances>
 	</eventType>
 	<impactsOnAvatars>
+		<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
+            <buff href="/Mechanics/Spells/BG_Balance/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+        </Item>
         <Item type="gameMechanics.elements.impacts.ImpactsIf">
             <predicate type="gameMechanics.constructor.basicElements.BinaryPredicateWrapper">
                 <onMaster type="gameMechanics.battleground.map.PredicateBattleMemberMark">
@@ -119,5 +122,5 @@
         </Item>
     </impactsOnAvatars>
 	<activeEventJoinPeriod>1800000</activeEventJoinPeriod>
-	<maxVisitsPerDay>1</maxVisitsPerDay>
+	<maxVisitsPerDay>0</maxVisitsPerDay>
 </avatarPopulation.service.impl.matchMakingImpl.scheme.InstancedEventResource>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountResource>
+    <Header>
+        <resourceId>2018420623</resourceId>
+    </Header>
+    <contextActionInfo>
+        <priority>100</priority>
+    </contextActionInfo>
+    <Name href="/Mechanics/Mounts/6thGrade/Mounts/PegasusIM.(MountResource).Name.txt" />
+    <alternativeSkins>
+        <Item href="/Mechanics/Mounts/Skins/Pegasus/PegasusBlue.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Pegasus/PegasusForest.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Pegasus/PegasusBase.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    </alternativeSkins>
+    <basicSkin href="/Mechanics/Mounts/Skins/Pegasus/PegasusIM.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    <contextActions>
+        <Item href="/Mechanics/Spells/Mounts/Pegasus/PegasusJump.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/Pegasus/SelfHeal.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+    </contextActions>
+    <grade>6</grade>
+    <health>0.6</health>
+    <healthDelta>0.005</healthDelta>
+    <healthLevelDelta>0</healthLevelDelta>
+    <prepareDuration>900</prepareDuration>
+    <prepareDurationDelta>30</prepareDurationDelta>
+    <regen>0.2</regen>
+    <speed>1.45</speed>
+    <speedDelta>0.01</speedDelta>
+    <penaltyCalcer type="gameMechanics.elements.calcers.OverLevelPenaltyCalcer">
+        <exponent>0.917</exponent>
+        <level>60</level>
+        <multiplier>0</multiplier>
+    </penaltyCalcer>
+    <canBeMorphed>true</canBeMorphed>
+    <isExoMount>false</isExoMount>
+    <isProbe>false</isProbe>
+</gameMechanics.constructor.schemes.mount.MountResource>

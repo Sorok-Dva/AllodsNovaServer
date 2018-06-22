@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.buff.BuffResource>
+    <Header>
+        <resourceId>2018420405</resourceId>
+    </Header>
+    <Description href="/Mechanics/Spells/Mounts/Pegasus/SelfHeal.(BuffResource).Description.txt" />
+    <Name href="/Mechanics/Spells/Mounts/Pegasus/SelfHeal.(BuffResource).Name.txt" />
+    <image href="/Interface/Icons/Mounts/SpellsMounts/Treatment.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <stackLimit>1</stackLimit>
+    <sysUIScriptName></sysUIScriptName>
+    <visScript href="/Spells/VisScripts/Mount/Pegasus_SelfHeal.(BuffVisScripts).xdb#xpointer(/client.Replica.BuffVisScripts)" />
+    <interfaceHighPriority>false</interfaceHighPriority>
+    <isDetachableOnWill>true</isDetachableOnWill>
+    <isGradual>false</isGradual>
+    <isHelpful>true</isHelpful>
+    <isLongTimeLifeBuff>false</isLongTimeLifeBuff>
+    <isMultiple>false</isMultiple>
+    <isStackable>true</isStackable>
+    <needVisualize>true</needVisualize>
+    <needVisualizeDuration>true</needVisualizeDuration>
+    <onlyForTargetAndCaster>false</onlyForTargetAndCaster>
+    <restartOnVisualChange>false</restartOnVisualChange>
+</gameMechanics.constructor.schemes.buff.BuffResource>

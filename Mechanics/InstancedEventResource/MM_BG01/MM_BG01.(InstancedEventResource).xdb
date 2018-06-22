@@ -66,6 +66,9 @@
 	</impactsOnFinish>
 	<startAnnounce href="StartAnnounce.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
 	<impactsOnAvatars>
+		<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
+            <buff href="/Mechanics/Spells/BG_Balance/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+        </Item>
 		<Item type="gameMechanics.elements.impacts.ImpactIncreaseQuestCount">
 			<id href="/World/Quests/ZoneHadagan1/BG1_Tutor/Count1.(QuestCountId).xdb#xpointer(/gameMechanics.elements.quest.QuestCountId)" />
 		</Item>
@@ -167,7 +170,7 @@
 		</entrances>
 	</eventType>
 	<activeEventJoinPeriod>600000</activeEventJoinPeriod>
-	<maxVisitsPerDay>10</maxVisitsPerDay>
+	<maxVisitsPerDay>0</maxVisitsPerDay>
 	<impactsOnEarlyExit>
 		<Item type="avatarPopulation.service.impl.matchMakingImpl.map.ImpactAddInstancedEventVisits">
 			<event href="MM_BG01.(InstancedEventResource).xdb#xpointer(/avatarPopulation.service.impl.matchMakingImpl.scheme.InstancedEventResource)" />

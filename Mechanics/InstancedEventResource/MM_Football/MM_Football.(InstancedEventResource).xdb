@@ -229,7 +229,7 @@
 		</Item>
 	</impactsOnTimeout>
 	<activeEventJoinPeriod>-1</activeEventJoinPeriod>
-	<maxVisitsPerDay>5</maxVisitsPerDay>
+	<maxVisitsPerDay>0</maxVisitsPerDay>
 	<impactsOnEarlyExit>
 		<Item type="gameMechanics.elements.impacts.BuffDetacher">
 			<buff href="/Mechanics/Spells/QuestSpells/Football_New/RedTeam.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
