@@ -24,6 +24,7 @@
 			<Item type="gameMechanics.elements.resources.ResourceActiveItem" />
 		</casterResources>
 		<casterImpacts>
+			<!-- TELEPORT TO FACTION -->
 			<Item type="gameMechanics.elements.impacts.ImpactTeleportLocFaction">
 				<factionLocators>
 					<Item>
@@ -48,17 +49,39 @@
 					</Item>
 				</factionLocators>
 			</Item>
+			<!--  LEVEL UP 56 -->
 			<Item type="gameMechanics.elements.impacts.ImpactAddExperience">
 				<calcer type="gameMechanics.elements.calcers.CalcerRemainingExpirience">
 					<level>56</level>
 				</calcer>
 			</Item>
+			<!-- INSPECT ABILITY 1 to 6 -->
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability01_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability02_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability03_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability04_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability05_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability06_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<!-- STUFF BOX -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 					<item href="/Items/WorldDrop/SkilledItemsBox/UncommonBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>36</count>
 			</Item>
+			<!-- ITEM MALL SPECIAL LOOT -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 					<item href="/Items/BoxSpecialLoot/EarringUnlock/EpicTokenEar.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
