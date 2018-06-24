@@ -9,6 +9,41 @@
 	<effects>
 		<Item type="gameMechanics.elements.effects.ImpactsOverTime">
 			<impacts>
+				<Item  type="gameMechanics.elements.impacts.ImpactIfTarget">
+					<predicates>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
+								<zone href="/Maps/Domination/Zones/Domination/SafeZone.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+							</predicate>
+						</Item>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
+								<zone href="/Maps/Domination/Zones/Domination/Domination.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+							</predicate>
+						</Item>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
+								<zone href="/Maps/Domination02/Zones/Domination02/SafeZone.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+							</predicate>
+						</Item>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
+								<zone href="/Maps/Domination02/Zones/Domination02/Domination02.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+							</predicate>
+						</Item>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
+								<zone href="/Maps/MM_PvP_Arena/Zones/MM_Pvp_Arena_01.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+							</predicate>
+						</Item>
+					</predicates>
+					<impactsIf>
+						<Item type="gameMechanics.elements.impacts.BuffDetacher">
+							<buff href="BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)"/>
+							<anyRank>false</anyRank>
+						</Item>
+					</impactsIf>
+				</Item>			
 				<Item type="gameMechanics.elements.impacts.ImpactScaleStats">
 					<attRuneMod>1.3</attRuneMod>
 					<defRuneMod>0.56</defRuneMod>
@@ -220,7 +255,7 @@
 					</statScaleValue>
 				</Item>
 			</impacts>
-			<tick>500</tick>
+			<tick>100</tick>
 		</Item>
 		<Item type="gameMechanics.elements.effects.Switch">
 			<impactsOff>
@@ -228,7 +263,7 @@
 			</impactsOff>
 		</Item>
 	</effects>
-	<duration>0</duration>
+	<duration>3600000</duration>
 	<isHelpful>true</isHelpful>
 	<isDetachableOnWill>false</isDetachableOnWill>
 	<isMultiple>false</isMultiple>
