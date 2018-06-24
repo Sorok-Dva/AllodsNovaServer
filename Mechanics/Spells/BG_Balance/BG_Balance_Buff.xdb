@@ -23,7 +23,7 @@
 						</Item>
 						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
 							<predicate type="gameMechanics.elements.predicates.PredicateInZone">
-								<zone href="/Maps/Domination02/Zones/Domination02/SafeZone.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+								<zone href="/Maps/Domination02/Zones/Domination02/Domination02_Safe_Zone.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
 							</predicate>
 						</Item>
 						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
@@ -265,8 +265,9 @@
 		</Item>
 	</effects>
 	<duration>3600000</duration>
-	<isHelpful>true</isHelpful>
+	<isHelpful>false</isHelpful>
 	<isDetachableOnWill>false</isDetachableOnWill>
+	<decayPolicy>NoOfflineDecay</decayPolicy>
 	<isMultiple>false</isMultiple>
 	<groups>
 		<Item href="/Mechanics/Spells/Groups/RemovesNot.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
