@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.mob.interaction.VendorTable>
+	<Header>
+		<resourceId>2018420627</resourceId>
+	</Header>
+	<entries>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateArmor51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateArmor51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBelt51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBelt51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResoBurce)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBoots51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBoots51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBracers51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBracers51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateGloves51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateGloves51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateHelm51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateHelm51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateMantle51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateMantle51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlatePants51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlatePants51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateArmor51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateArmor51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBelt51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBelt51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResoBurce)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBoots51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBoots51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBracers51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateBracers51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateGloves51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateGloves51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateHelm51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateHelm51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateMantle51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlateMantle51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlatePants51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaPlatePants51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+	</entries>
+</gameMechanics.world.mob.interaction.VendorTable>

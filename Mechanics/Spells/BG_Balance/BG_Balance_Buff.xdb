@@ -229,7 +229,7 @@
 		</Item>
 	</effects>
 	<duration>0</duration>
-	<isHelpful>false</isHelpful>
+	<isHelpful>true</isHelpful>
 	<isDetachableOnWill>false</isDetachableOnWill>
 	<isMultiple>false</isMultiple>
 	<groups>
