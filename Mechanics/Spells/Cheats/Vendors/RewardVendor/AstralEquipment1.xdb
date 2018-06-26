@@ -6,202 +6,182 @@
 	<entries>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Rare/DH_RareLeatherHelm40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherArmor51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Rare/DH_RareClothHelm40MagHealer.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherArmor51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Rare/DH_RareClothBracers40MagHealer.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBelt51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareLeatherMantle40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBelt51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResoBurce)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareTrinket40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBoots51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareRing40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBoots51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRarePlatePants40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBracers51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Mechanics/Crafting/Drop/Component40.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBracers51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRarePlateMantle40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherGloves51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRarePlateBracers40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherGloves51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRarePairOfFists40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherHelm51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRarePlatePants40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherHelm51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareLeatherArmor40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherMantle51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareLeatherArmor40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherMantle51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareDagger40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherPants51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareClothHelm40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherPants51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareClothBelt40Mag.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherShirt51Mag_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRareCloak40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherShirt51Mag_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
+				<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherArmor51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRare2HMace40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherArmor51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRare1HSpear40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBelt51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicRare1HAxe40Phys.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBelt51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResoBurce)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Uncommon/DH_UncmMiscTrinket40MagHealerEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBoots51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Uncommon/DH_UncmPlateHelm40MagHealerEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBoots51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_DomeHeroic/Uncommon/DH_UncmPlateArmor40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBracers51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPairOfSwordDagger40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherBracers51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommon2HMace40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherGloves51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPlateBelt40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherGloves51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPlatePants40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherHelm51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonLeatherGloves40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherHelm51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonCloak40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherMantle51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonClothBelt40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherMantle51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPairOfFists40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherPants51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommon2HSpear40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherPants51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonWand40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherShirt51Phys_1.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 		<Item>
 			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPlateBoots40MagEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</item>
-		</Item>
-		<Item>
-			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonLeatherShirt40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</item>
-		</Item>
-		<Item>
-			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonLeatherArmor40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</item>
-		</Item>
-		<Item>
-			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonRing40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</item>
-		</Item>
-		<Item>
-			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommonPairOfDaggers40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-			</item>
-		</Item>
-		<Item>
-			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-				<item href="/Items/Mechanics/BossLoot/Inst_SecretLab_Heroic/SL_HeroicUncommon2HAxe40PhysEmpire.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				<item href="/Items/HeroicInstancesReward/Tier4/51/HeroicRewardTier4_MetaLeatherShirt51Phys_2.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
 	</entries>
