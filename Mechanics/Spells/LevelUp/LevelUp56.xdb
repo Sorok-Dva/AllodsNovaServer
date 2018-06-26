@@ -201,7 +201,7 @@
 					<item href="/Items/Mechanics/Ammo/AmmoRare.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>10000</count>
-			</Item
+			</Item>
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 					<item href="/ItemMall/Services/Avatar/RaceClassSpellsUnlockItem.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
