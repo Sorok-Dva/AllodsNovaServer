@@ -394,14 +394,12 @@
 		</Item>
 		<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
 			<predicates>
-				<Item type="gameMechanics.constructor.basicElements.PredicateAnd">
-					<predicates>
-						<Item type="gameMechanics.elements.predicates.PredicateCreatureLevel">
-							<minLevel type="gameMechanics.formulas.IntConstantValue">
-								<value>1</value>
-							</minLevel>
-						</Item>
-					</predicates>
+				<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+					<Item type="gameMechanics.elements.predicates.PredicateCreatureLevel">
+						<minLevel type="gameMechanics.formulas.IntConstantValue">
+							<value>55</value>
+						</minLevel>
+					</Item>
 				</Item>
 			</predicates>
 			<impactsIf>

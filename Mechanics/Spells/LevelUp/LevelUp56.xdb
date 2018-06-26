@@ -201,6 +201,19 @@
 					<item href="/Items/Mechanics/Ammo/AmmoRare.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>10000</count>
+			</Item
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/ItemMall/Services/Avatar/RaceClassSpellsUnlockItem.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
+			</Item>
+			<!-- MONEY -->
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/QuestsItems/ZoneLeague1/MentorSystem/MoneyForMentor_50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
 			</Item>
 		</casterImpacts>
 	</mechanics>
