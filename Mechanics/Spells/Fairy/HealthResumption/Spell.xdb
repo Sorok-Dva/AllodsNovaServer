@@ -113,7 +113,7 @@
 		</channelingMechanics>
 		<casterImpacts>
 			<Item type="gameMechanics.elements.impacts.ImpactAddFairyExperience">
-				<experience>15</experience>
+				<experience>1500</experience>
 			</Item>
 			<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
 				<buff href="/Mechanics/Fairies/AbilityUseBuff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
