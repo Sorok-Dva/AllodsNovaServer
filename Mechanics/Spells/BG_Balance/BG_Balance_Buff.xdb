@@ -40,7 +40,7 @@
 					<impactsIf>
 						<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
 						<Item type="gameMechanics.elements.impacts.BuffDetacher">
-							<buff href="/Mechanics/Spells/BG_Balane/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+							<buff href="/Mechanics/Spells/BG_Balance/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
 							<anyRank>false</anyRank>
 						</Item>
 					</impactsIf>
@@ -258,7 +258,7 @@
 					</impactsElse>
 				</Item>					
 			</impacts>
-			<tick>10000</tick>
+			<tick>100</tick>
 		</Item>
 		<Item type="gameMechanics.elements.effects.Switch">
 			<impactsOff>
