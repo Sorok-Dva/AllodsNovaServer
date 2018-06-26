@@ -409,6 +409,9 @@
 					</item>
 					<count>1</count>
 				</Item>
+				<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+					<unlock href="/Mechanics/Unlocks/MegaGoal/Greatness_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+				</Item>
 			</impactsIf>
 		</Item>
 	</onloadImpacts>
