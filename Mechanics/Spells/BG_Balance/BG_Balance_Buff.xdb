@@ -39,7 +39,7 @@
 					</predicates>
 					<impactsIf>
 						<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
-						<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
+						<Item type="gameMechanics.constructor.schemes.buff.BuffDetacher">
 							<buff href="/Mechanics/Spells/BG_Balance/BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
 						</Item>
 					</impactsIf>
