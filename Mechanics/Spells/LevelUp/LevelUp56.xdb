@@ -211,7 +211,7 @@
 			<!-- MONEY -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-					<item href="/Items/QuestsItems/ZoneLeague1/MentorSystem/MoneyForMentor_50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+					<item href="/Items/QuestItems/ZoneLeague1/MentorSystem/MoneyForMentor_50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>1</count>
 			</Item>
