@@ -38,15 +38,12 @@
 						</Item>
 					</predicates>
 					<impactsIf>
-						<Item type="gameMechanics.elements.impacts.ImpactInstantiating">
-							<impacts>
-								<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
-							</impacts>
-						</Item>
+						<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
 						<Item type="gameMechanics.elements.impacts.BuffDetacher">
 							<buff href="BG_Balance_Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)"/>
 							<anyRank>false</anyRank>
-						</Item>
+						</Item
+						<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
 					</impactsIf>
 				</Item>			
 				<Item type="gameMechanics.elements.impacts.ImpactScaleStats">
