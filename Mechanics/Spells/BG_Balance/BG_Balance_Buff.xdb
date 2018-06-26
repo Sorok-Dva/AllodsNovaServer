@@ -40,11 +40,7 @@
 					<impactsIf>
 						<Item type="gameMechanics.elements.impacts.ImpactInstantiating">
 							<impacts>
-								<Item type="gameMechanics.elements.impacts.ReturningInstantiatingImpactGeneric">
-									<impacts>
-										<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
-									</impacts>
-								</Item>
+								<Item type="gameMechanics.elements.impacts.ImpactResetStats" />
 							</impacts>
 						</Item>
 						<Item type="gameMechanics.elements.impacts.BuffDetacher">
