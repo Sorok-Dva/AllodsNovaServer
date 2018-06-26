@@ -252,7 +252,7 @@
 					</statScaleValue>
 				</Item>
 			</impacts>
-			<tick>100</tick>
+			<tick>10000</tick>
 		</Item>
 		<Item type="gameMechanics.elements.effects.Switch">
 			<impactsOff>
