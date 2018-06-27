@@ -104,7 +104,7 @@
 	<quality href="/Mechanics/ItemQualities/Legendary.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemQuality)" />
 	<price type="gameMechanics.constructor.schemes.item.price.ItemPriceMoney">
 		<sellPrice>-1</sellPrice>
-		<buyPrice>-1</buyPrice>
+		<buyPrice>1</buyPrice>
 	</price>
 	<binding>BindOnEquip</binding>
 	<itemMallType>ITEMMALLABLE</itemMallType>
