@@ -29,22 +29,14 @@
 	<needInFront>false</needInFront>
 	<mechanics>
 		<cooldown>
-			<duration>3000</duration>
+			<duration>15000</duration>
 		</cooldown>
 		<targetConditions>
 			<Item type="gameMechanics.elements.predicates.PredicateCreature" />
 		</targetConditions>
 		<targetImpacts>
-			<Item type="gameMechanics.elements.impacts.DirectDamage">
-				<damage>1</damage>
-				<scalerTarget type="gameMechanics.elements.scalers.LinerMultiplierScaler">
-					<mulCalcer type="gameMechanics.elements.calcers.FullHealthCalcer">
-						<multiplier>0.2</multiplier>
-					</mulCalcer>
-				</scalerTarget>
-			</Item>
 			<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
-				<buff href="/Mechanics/Spells/CommonBuffs/KnockDown/BuffKnockDown.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+				<buff href="/Mechanics/Spells/WorldBoss/ArchipelagoContested4/ElfCultistEliteBoss/CursedStrike/Buff_02_01.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
 			</Item>
 			<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
 				<predicates>
