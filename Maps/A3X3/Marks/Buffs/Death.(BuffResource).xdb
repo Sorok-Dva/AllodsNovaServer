@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.buff.BuffResource>
+    <Header>
+        <resourceId>4011</resourceId>
+    </Header>
+    <Name href="Death.Name.txt"/>
+    <Description href="Death.Description.txt"/>
+    <image href="/Interface/Icons/Spells/Mage/MageInvisibility.(UISingleTexture).xdb#xpointer(/UISingleTexture)"/>
+    <visScript href="/Mechanics/Spells/CommonBuffs/Invisibility/Invisibility.(BuffVisScripts).xdb#xpointer(/BuffVisScripts)"/>
+    <effects>
+        <Item type="gameMechanics.elements.effects.EffectDisableAllActions" />
+        <Item type="gameMechanics.elements.effects.AutoAttackDisabler" />
+        <Item type="gameMechanics.elements.effects.EffectDoesNotAggro" />
+        <Item type="gameMechanics.elements.effects.DamageZeroSuppressor" />
+        <Item type="gameMechanics.elements.effects.ImmunityToHarmfulSpells" />
+        <Item type="gameMechanics.elements.effects.AddPlane">
+            <plane href="/Mechanics/Planes/GMInvisibility.xdb#xpointer(/gameMechanics.world.visibility.Plane)"/>
+        </Item>
+        <Item type="gameMechanics.elements.effects.EffectZoneEnterLeaveChecker">
+            <impactsOnLeave>
+                <Item type="gameMechanics.elements.impacts.BuffDetacher">
+                    <buff href="Death.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+                </Item>
+            </impactsOnLeave>
+            <activeZone href="/Maps/A3X3/Zones/BattleZone.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)"/>
+        </Item>
+    </effects>
+    <isHelpful>true</isHelpful>
+    <canBeSaved>false</canBeSaved>
+</gameMechanics.constructor.schemes.buff.BuffResource>

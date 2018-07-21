@@ -16,6 +16,7 @@
 	<quality href="/Mechanics/MobQualities/Common.xdb#xpointer(/gameMechanics.world.mob.MobQuality)" />
 	<interactions>
 		<availableQuests>
+			<Item href="/World/Quests/AllodsNova/LevelUp/LevelUp56Empire.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
 			<Item href="/World/Quests/Hadagan_Sanatorium/Quest_2_1/Quest_2_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
 			<Item href="/World/Quests/ZoneHadagan1/Quest_0_0/Quest_0_0.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
 			<Item href="/World/Quests/Hadagan_Sanatorium/Quest_01/Quest_01.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />

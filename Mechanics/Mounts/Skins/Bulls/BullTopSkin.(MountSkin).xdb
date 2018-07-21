@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070436</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Bulls/BullTopSkin.(MountSkin).Description.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Bulls/BullTopSkin.(MountSkin).Name.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/Bulls/BullTopSkin.(MountSkin).SourceDescription.txt" />
+    <image href="/Interface/Icons/Mounts/MountTauntaun02.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <unlock href="/Mechanics/Mounts/Skins/Bulls/TauntaunTop.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Tauntaun/TauntaunDark.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>true</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

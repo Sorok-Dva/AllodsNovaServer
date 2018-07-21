@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070525</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Drakes/DrakeBronze.(MountSkin).Description.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Drakes/DrakeBronze.(MountSkin).Name.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/StrongBox2014AprilSource.txt" />
+    <image href="/Interface/Icons/Mounts/MountDrakeBronze.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <unlock href="/Mechanics/Mounts/Skins/Drakes/DrakeBronze.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Drake/DrakeBronze.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>false</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

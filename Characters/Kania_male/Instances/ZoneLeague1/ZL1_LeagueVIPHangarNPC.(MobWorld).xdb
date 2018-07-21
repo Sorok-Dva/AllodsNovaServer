@@ -26,9 +26,9 @@
 		</cues>
 	</interactions>
 	<levelMax type="gameMechanics.formulas.IntConstantValue">
-		<value>40</value>
+		<value>55</value>
 	</levelMax>
 	<levelMin type="gameMechanics.formulas.IntConstantValue">
-		<value>40</value>
+		<value>55</value>
 	</levelMin>
 </gameMechanics.world.mob.MobWorld>

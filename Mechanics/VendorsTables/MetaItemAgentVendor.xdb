@@ -19,5 +19,10 @@
 				<item href="/Items/Agents/EnchantEnhancerConverter.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 			</item>
 		</Item>
+		<Item>
+			<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+				<item href="/ItemMall/Services/Factors/Ama_Factor05.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</item>
+		</Item>
 	</entries>
 </gameMechanics.world.mob.interaction.VendorTable>

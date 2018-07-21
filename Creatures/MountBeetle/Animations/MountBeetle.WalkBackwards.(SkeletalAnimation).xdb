@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="0.25985" y="0.947351" z="3.09412"/>
+        <extents x="3.7286" y="3.08641" z="2.59796"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="0.104903" y="0.341658" z="3.17892"/>
+        <extents x="3.46321" y="2.45072" z="2.51064"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>10116</size>
+    </animation>
+    <binaryVersion>2</binaryVersion>
+    <blendTime>0.4</blendTime>
+    <endFrame>32</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>91</scriptID>
+    <scriptName>walkBackwards</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

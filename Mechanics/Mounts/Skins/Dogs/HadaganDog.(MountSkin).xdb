@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070506</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Dogs/HadaganDog.(MountSkin).Description.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Dogs/HadaganDog.(MountSkin).Name.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/Dogs/HadaganDog.(MountSkin).SourceDescription.txt" />
+    <image href="/Interface/Icons/Mounts/DogHadagan.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <p2pSourceDescription href="/Mechanics/Mounts/Skins/HuntingGround.txt" />
+    <unlock href="/Mechanics/Mounts/Skins/Dogs/HadaganDog.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Dog/DogHadagan.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>true</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

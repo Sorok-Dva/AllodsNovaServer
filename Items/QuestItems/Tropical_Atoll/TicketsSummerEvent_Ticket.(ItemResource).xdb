@@ -12,11 +12,4 @@
 	<lifeLengthCap>604800000</lifeLengthCap>
 	<name href="TicketsSummerEvent_Ticket.txt" />
 	<category href="/Mechanics/ItemCategories/TradeGoods/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)" />
-	<price type="gameMechanics.constructor.schemes.item.price.ItemPriceAltCurrencies">
-		<currencies>
-			<Item>
-				<currency href="/Mechanics/AlternativeCurrencies/Events/SilverCoin.xdb#xpointer(/gameMechanics.constructor.schemes.item.AlternativeCurrency)" />
-			</Item>
-		</currencies>
-	</price>
 </gameMechanics.constructor.schemes.item.ItemResource>

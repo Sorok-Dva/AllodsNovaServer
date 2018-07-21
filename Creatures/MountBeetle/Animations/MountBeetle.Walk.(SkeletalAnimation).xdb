@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="0.0460508" y="0.224319" z="1.87862"/>
+        <extents x="2.13658" y="3.07455" z="2.14343"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="0.00326324" y="0.101479" z="1.85168"/>
+        <extents x="2.0101" y="2.91623" z="2.08418"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>12112</size>
+    </animation>
+    <animationEvents>
+        <Item>
+            <event>0.166667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.333333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.5</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.666667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.833333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>1</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+    </animationEvents>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>33</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>34</scriptID>
+    <scriptName>walk</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountResource>
+    <Header>
+        <resourceId>42070201</resourceId>
+    </Header>
+    <contextActionInfo>
+        <priority>100</priority>
+    </contextActionInfo>
+    <Name href="/Mechanics/Mounts/6thGrade/Mounts/ElfWasp.txt" />
+    <alternativeSkins href="/Mechanics/Mounts/Skins/BattleMounts/ElfWasp.(SkinListResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.SkinListResource)" />
+    <basicSkin href="/Mechanics/Mounts/Skins/BattleMounts/BattleMountElfWasp.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    <contextActions>
+        <Item href="/Mechanics/Spells/Mounts/ElfWasp/Energize/Spell01_base.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/ElfWasp/Stasis/Spell01_base.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/ElfWasp/DisintegrationRay/DisintegrationRay_base.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/ElfWasp/Blink/Spell01_base.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/ElfWasp/Stealth/Spell01_base.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+    </contextActions>
+    <corpulence>2.1</corpulence>
+    <grade>6</grade>
+    <mechanics>
+        <health>1.7</health>
+        <healthDelta>0.03</healthDelta>
+        <healthLevelDelta>0</healthLevelDelta>
+        <prepareDuration>600</prepareDuration>
+        <prepareDurationDelta>30</prepareDurationDelta>
+        <regen>0.2</regen>
+        <speed>1.45</speed>
+        <speedDelta>0.01</speedDelta>
+    </mechanics>
+    <penaltyCalcer type="gameMechanics.elements.calcers.OverLevelPenaltyCalcer">
+        <exponent>0.917</exponent>
+        <level>60</level>
+    </penaltyCalcer>
+    <sysName></sysName>
+    <timeLeft>
+        <day>0</day>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <ms>0</ms>
+    </timeLeft>
+    <canBeMorphed>true</canBeMorphed>
+    <isExoMount>false</isExoMount>
+    <isProbe>false</isProbe>
+</gameMechanics.constructor.schemes.mount.MountResource>

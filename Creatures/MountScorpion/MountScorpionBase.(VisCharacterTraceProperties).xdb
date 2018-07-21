@@ -1,0 +1,187 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<client.VisualConstructor.VisCharacterTraceProperties>
+    <animations>
+        <Item>
+            <animation>run</animation>
+            <keys>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+            </keys>
+        </Item>
+        <Item>
+            <animation>walk</animation>
+            <keys>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+            </keys>
+        </Item>
+        <Item>
+            <animation>walkBackwards</animation>
+            <keys>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_L_01</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_02</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+                <Item>
+                    <actions>
+                        <Item>
+                            <effects href="/Creatures/MountScorpion/TraceFootsBase.(VisEffectBaseList).xdb#xpointer(/client.VisualConstructor.VisEffectBaseList)"/>
+                            <standartLocator>Slot_Trace_R_03</standartLocator>
+                            <uncommonLocator></uncommonLocator>
+                        </Item>
+                    </actions>
+                </Item>
+            </keys>
+        </Item>
+    </animations>
+</client.VisualConstructor.VisCharacterTraceProperties>

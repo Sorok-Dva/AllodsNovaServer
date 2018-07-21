@@ -24,6 +24,30 @@
 			<Item type="gameMechanics.elements.resources.ResourceActiveItem" />
 		</casterResources>
 		<casterImpacts>
+			<!-- LINK TELEPORT STONE TO START INSTANCE OF THE AVATAR FACTION -->
+			<Item type="gameMechanics.elements.impacts.ImpactIfCaster">
+				<predicates>
+					<Item type="gameMechanics.elements.predicates.PredicateFaction">
+						<faction href="/World/Factions/League.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+					</Item>
+				</predicates>
+				<impacts>
+					<Item type="gameMechanics.elements.impacts.ImpactSetHearthstone">
+						<locator>
+							<scriptID>CampN</scriptID>
+							<map href="/Maps/Kania_AL1/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+						</locator>
+					</Item>
+				</impacts>
+				<elseImpacts>
+					<Item type="gameMechanics.elements.impacts.ImpactSetHearthstone">
+						<locator>
+							<scriptID>Capital_AE1_Teleport</scriptID>
+							<map href="/Maps/Hadagan/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+						</locator>
+					</Item>
+				</elseImpacts>
+			</Item>
 			<!-- TELEPORT TO FACTION -->
 			<Item type="gameMechanics.elements.impacts.ImpactTeleportLocFaction">
 				<factionLocators>
@@ -74,12 +98,33 @@
 			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
 				<unlock href="/Mechanics/Unlocks/InspectAbility/Ability06_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
 			</Item>
+			<!-- Greatness -->
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/MegaGoal/Greatness_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<!-- Astral  -->
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/AstralTier1Unlock.xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/AstralTier2Unlock.xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+				<unlock href="/Mechanics/Unlocks/AstralTier3Unlock.xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+			</Item>
 			<!-- STUFF BOX -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 					<item href="/Items/WorldDrop/SkilledItemsBox/UncommonBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>36</count>
+			</Item>
+			<!-- FREE SHIP -->
+			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
+				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+					<item href="/Items/BoxSpecialLoot/WelcomeBack/WelcomeBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+				</item>
+				<count>1</count>
 			</Item>
 			<!-- ITEM MALL SPECIAL LOOT -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
@@ -162,12 +207,6 @@
 			</Item>
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-					<item href="/Items/CollectorsEdition/EU_FreeStarterPack_1.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-				</item>
-				<count>1</count>
-			</Item>
-			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
-				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 					<item href="/Items/NewcomersChest/AdvanceBoxNew/5/AdvanceBoxNew_05.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>1</count>
@@ -227,6 +266,106 @@
 				</item>
 				<count>1</count>
 			</Item>
+			<!-- QUESTS RESOLVER -->
+			<!--<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest1_1/Quest1_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest1_2/Quest1_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest1_3/Quest1_3.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest1_4/Quest1_4.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest2_1/Quest2_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest2_2/Quest2_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest2_3/Quest2_3.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest2_4/Quest2_4.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest2_5/Quest2_5.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_1/Quest3_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_2/Quest3_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_3/Quest3_3.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_4/Quest3_4.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_5/Quest3_5.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest3_6/Quest3_6.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest4_1/Quest4_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest4_2/Quest4_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest4_3/Quest4_3.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest4_4/Quest4_4.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest4_6/Quest4_6.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest5_1/Quest5_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest5_2/Quest5_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest6_1/Quest6_1.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item> 
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="/World/Quests/ArchipelagoLeague1/Quest6_2/Quest6_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_02/HS_Line_02.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_02/HS_Line_02.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_02/HS_Line_02.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_01/HS_Line_01.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_03/HS_Line_03.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_04/HS_Line_04.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_05/HS_Line_05.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_06_2/HS_Line_06_2.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>
+			<Item type="gameMechanics.elements.impacts.ImpactStartAndCompleteQuest">
+				<quest href="World/Quests/ArchipelagoLeague1/HS_Line_07/HS_Line_07.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />		
+			</Item>-->
 		</casterImpacts>
 	</mechanics>
 </gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>

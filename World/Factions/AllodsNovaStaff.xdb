@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.creature.Faction>
+	<Header>
+		<resourceId>42070637</resourceId>
+	</Header>
+	<name href="ANOVASTAFF_NAME.txt" />
+	<sysTutorialName />
+	<littleOldMan>false</littleOldMan>
+	<defaultReputation>0</defaultReputation>
+	<friends>
+		<Item href="League.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Empire.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Empire_Keepers.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="League_Force.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="League_Defenders.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Hadagan.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Profession/EmpireCrafters.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Profession/EmpireGetherers.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Profession/LeagueCrafters.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Profession/LeagueGetherers.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Town_Militia.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Zem.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+		<Item href="Orc.(Faction).xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+	</friends>
+</gameMechanics.world.creature.Faction>

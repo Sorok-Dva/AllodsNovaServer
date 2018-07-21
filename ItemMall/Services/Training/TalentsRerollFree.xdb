@@ -32,7 +32,7 @@
 		<buyPrice>2</buyPrice>
 	</price>
 	<binding>BindOnPickup</binding>
-	<lifeLengthCap>604800000</lifeLengthCap>
+	<lifeLengthCap>2629800000</lifeLengthCap>
 	<itemMallType>ITEMMALLABLE</itemMallType>
 	<name href="TalentsRerollFree.txt" />
 	<category href="/Mechanics/ItemCategories/ItemMall.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)" />

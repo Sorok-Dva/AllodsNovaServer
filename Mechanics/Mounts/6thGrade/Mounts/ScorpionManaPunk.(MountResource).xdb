@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountResource>
+    <Header>
+        <resourceId>42070238</resourceId>
+    </Header>
+    <contextActionInfo>
+        <priority>100</priority>
+    </contextActionInfo>
+    <Name href="/Mechanics/Mounts/6thGrade/Mounts/ScorpionManaPunk.(MountResource).Name.txt" />
+    <alternativeSkins href="/Mechanics/Mounts/Skins/Scorpions/Scorpions.(SkinListResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.SkinListResource)" />
+    <basicSkin href="/Mechanics/Mounts/Skins/Scorpions/ScorpionManaPunk.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    <contextActions>
+        <Item href="/Mechanics/Spells/Mounts/Scorpion/Spell0.(SpellArea).xdb#xpointer(/gameMechanics.constructor.schemes.spell.area.SpellArea)" />
+    </contextActions>
+    <grade>6</grade>
+    <mechanics>
+        <health>0.9</health>
+        <healthDelta>0.005</healthDelta>
+        <healthLevelDelta>0</healthLevelDelta>
+        <prepareDuration>900</prepareDuration>
+        <prepareDurationDelta>30</prepareDurationDelta>
+        <regen>0.2</regen>
+        <speed>1.55</speed>
+        <speedDelta>0.005</speedDelta>
+    </mechanics>
+    <overrideMounts>
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/Scorpion.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/ScorpionArmor.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/ScorpionLava.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/ScorpionStone.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+    </overrideMounts>
+    <penaltyCalcer type="gameMechanics.elements.calcers.OverLevelPenaltyCalcer">
+        <exponent>0.917</exponent>
+        <level>70</level>
+    </penaltyCalcer>
+    <sysName></sysName>
+    <timeLeft>
+        <day>0</day>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <ms>0</ms>
+    </timeLeft>
+    <canBeMorphed>true</canBeMorphed>
+    <isExoMount>false</isExoMount>
+    <isProbe>false</isProbe>
+</gameMechanics.constructor.schemes.mount.MountResource>

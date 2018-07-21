@@ -13,10 +13,10 @@
 	<itemClass href="/Mechanics/ItemClasses/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemClass)" />
 	<level>1</level>
 	<requiredLevel>1</requiredLevel>
-	<stackLimit>30</stackLimit> <!-- 5 -->
+	<stackLimit>5</stackLimit> <!-- 30 -->
 	<quality href="/Mechanics/ItemQualities/Goods.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemQuality)" />
 	<binding>BindOnPickup</binding>
-	<lifeLengthCap>604800000</lifeLengthCap> <!-- 86400000 -->
+	<lifeLengthCap>86400000</lifeLengthCap> <!-- 604800000 -->
 	<name href="Tier1_Ticket.txt" />
 	<category href="/Mechanics/ItemCategories/Misc/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)" />
 	<includeInBoxes>false</includeInBoxes>

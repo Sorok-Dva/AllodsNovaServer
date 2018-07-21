@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.mount.MountSkin>
     <Header>
-		<resourceId>2018420616</resourceId>
-	</Header>
-	<Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusBlue.(MountSkin).Description.txt" />
+        <resourceId>42070397</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusBlue.(MountSkin).Description.txt" />
     <Name href="/Mechanics/Mounts/Skins/Pegasus/PegasusBlue.(MountSkin).Name.txt" />
     <SourceDescription href="/Mechanics/Mounts/Skins/ArhivariusBoxSource.txt" />
     <image href="/Interface/Icons/Mounts/Pegasus02.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />

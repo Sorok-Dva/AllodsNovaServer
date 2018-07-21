@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.mount.MountSkin>
     <Header>
-		<resourceId>2018420614</resourceId>
-	</Header>
-	<Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusIM.(MountSkin).Description.txt" />
+        <resourceId>42070401</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusIM.(MountSkin).Description.txt" />
     <Name href="/Mechanics/Mounts/Skins/Pegasus/PegasusIM.(MountSkin).Name.txt" />
     <SourceDescription href="/Mechanics/Mounts/Skins/ItemMallSource.txt" />
     <image href="/Interface/Icons/Mounts/IMPegasus.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />

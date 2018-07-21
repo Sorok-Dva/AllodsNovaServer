@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.00447643" y="-0.430158" z="2.01513"/>
+        <extents x="3.44039" y="3.04797" z="2.27484"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="0.0544398" y="-0.281714" z="1.88352"/>
+        <extents x="2.49375" y="2.56123" z="1.99788"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>27504</size>
+    </animation>
+    <animationEvents>
+        <Item>
+            <event>0.133333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.2</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.333333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.466667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.533333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.666667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.5</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.6</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.63333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.7</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.73333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>2.83333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+    </animationEvents>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>87</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>500</scriptID>
+    <scriptName>specialJump</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

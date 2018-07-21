@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.avatar.CharacterRaceClass>
+	<Header>
+		<resourceId>42070643</resourceId>
+	</Header>
+	<characterClass href="/Mechanics/Classes/GM.xdb#xpointer(/gameMechanics.world.avatar.CharacterClass)" />
+	<name href="KaniaGM.txt" />
+	<greatName href="KaniaGMGreat.txt" />
+	<description href="KaniaGMDesc.txt" />
+	<sysName>KaniaGM</sysName>
+	<characterRace href="/Mechanics/Races/Kania.xdb#xpointer(/gameMechanics.world.avatar.CharacterRace)" />
+</gameMechanics.world.avatar.CharacterRaceClass>

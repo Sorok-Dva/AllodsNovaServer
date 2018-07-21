@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.00122127" y="0.67848" z="0.933453"/>
+        <extents x="0.963079" y="2.99392" z="1.19012"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.00260106" y="0.863713" z="1.05024"/>
+        <extents x="0.832376" y="2.78594" z="1.0732"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>26916</size>
+    </animation>
+    <animationEvents>
+        <Item>
+            <event>0.533333</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>0.666667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>1.46667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+    </animationEvents>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>51</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>500</scriptID>
+    <scriptName>specialJump</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

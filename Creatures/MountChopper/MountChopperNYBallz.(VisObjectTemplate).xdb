@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisObjectTemplate>
+    <defaultState>
+        <sound/>
+        <allowMultipleSoundInstances>false</allowMultipleSoundInstances>
+        <playSoundOnKeys>true</playSoundOnKeys>
+        <isNecessaryAnim>false</isNecessaryAnim>
+    </defaultState>
+    <fadeInMS>0</fadeInMS>
+    <fadeOutMS>0</fadeOutMS>
+    <geometry href="/Creatures/MountChopper/MountChopperNYBallz.(Geometry).xdb#xpointer(/client.Scene3D.Geometry)"/>
+    <replaceDistance>-1</replaceDistance>
+    <scale>1</scale>
+    <sound/>
+    <visObjComponents>
+        <Item type="ChainAnimatorComponent">
+            <chains>
+                <Item>
+                    <constraints>
+                        <acceleration>1</acceleration>
+                        <maxAngle x="0" y="0" z="0"/>
+                        <maxSpeed x="0" y="0" z="0"/>
+                        <minAngle x="0" y="0" z="0"/>
+                        <drawContraintsX>true</drawContraintsX>
+                        <drawContraintsY>true</drawContraintsY>
+                        <getRotationFromOriginNode>false</getRotationFromOriginNode>
+                        <useContraints>false</useContraints>
+                    </constraints>
+                    <gravity x="0" y="0" z="0"/>
+                    <mass>9</mass>
+                    <nodes>
+                        <Item>Hips</Item>
+                        <Item>Slot_Special99</Item>
+                    </nodes>
+                    <resistance>0.75</resistance>
+                    <spring>3</spring>
+                    <useDefaultGravity>true</useDefaultGravity>
+                </Item>
+            </chains>
+        </Item>
+    </visObjComponents>
+    <softReplace>false</softReplace>
+</VisObjectTemplate>

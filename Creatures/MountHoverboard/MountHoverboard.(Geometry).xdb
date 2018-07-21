@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Geometry>
+    <aabb>
+        <center x="0.118409" y="-0.254658" z="2.11681"/>
+        <extents x="2.5169" y="2.66449" z="2.86605"/>
+    </aabb>
+    <decalTraceHeight>1.3</decalTraceHeight>
+    <fogFactor>1</fogFactor>
+    <geometryBox>
+        <center x="0" y="-0.109975" z="-0.260643"/>
+        <extents x="1.9519" y="1.25213" z="0.487203"/>
+    </geometryBox>
+    <geometryFragments>
+        <Item>
+            <aabb>
+                <center x="0" y="0.0349095" z="-0.221747"/>
+                <extents x="1.85268" y="0.204361" z="0.010088"/>
+            </aabb>
+            <blob>
+                <localID>3</localID>
+                <size>4208</size>
+            </blob>
+        </Item>
+    </geometryFragments>
+    <globalID>-1</globalID>
+    <hideRule>DEFAULT</hideRule>
+    <indexBuffer>
+        <localID>1</localID>
+        <size>119706</size>
+    </indexBuffer>
+    <joints>
+        <Item>
+            <id>65535</id>
+            <name>WingsFront</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Hips</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Wires</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Crystal</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Wing_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>WingAdd_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>EngineNozzles_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>WingBase_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>EngineNozzles_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>WingBase_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Wing_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>WingAdd_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopWing_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopWing_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopStabLower_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopStabUpper_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>EngineNozzle</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Shaft</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopStabLower_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>TopStabUpper_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Tail_2_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Tail_1_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Tail_2_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Tail_1_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>13</id>
+            <name>Slot_TopFX</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>27</id>
+            <name>Slot_Global</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>26</id>
+            <name>Slot_Head</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>14</id>
+            <name>Slot_BodyFX</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>12</id>
+            <name>Slot_FX</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>19</id>
+            <name>Slot_Hand_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>18</id>
+            <name>Slot_Hand_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>16</id>
+            <name>Slot_Eye_R</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>15</id>
+            <name>Slot_Eye_L</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>17</id>
+            <name>Slot_Mouth</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>1350</id>
+            <name>Slot_Mount_01</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>1351</id>
+            <name>Slot_Mount_02</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>1352</id>
+            <name>Slot_Mount_03</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>789</id>
+            <name>Slot_Special90</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>790</id>
+            <name>Slot_Special91</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>791</id>
+            <name>Slot_Special92</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>700</id>
+            <name>Slot_Special01</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>701</id>
+            <name>Slot_Special02</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>702</id>
+            <name>Slot_Special03</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>703</id>
+            <name>Slot_Special04</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>798</id>
+            <name>Slot_Special99</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>797</id>
+            <name>Slot_Special98</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>710</id>
+            <name>Slot_Special11</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>796</id>
+            <name>Slot_Special97</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>709</id>
+            <name>Slot_Special10</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>795</id>
+            <name>Slot_Special96</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>Global</name>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <id>65535</id>
+            <name>VisualSceneNode</name>
+            <scale>1</scale>
+        </Item>
+    </joints>
+    <lodDistances>
+        <Item>29.0637</Item>
+        <Item>69.5174</Item>
+    </lodDistances>
+    <lodFactor>1</lodFactor>
+    <modelElements>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>0</indexBufferBegin>
+                    <indexBufferEnd>15450</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>4883</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>29598</indexBufferBegin>
+                    <indexBufferEnd>39441</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>4887</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>39441</indexBufferBegin>
+                    <indexBufferEnd>45189</indexBufferEnd>
+                    <vertexBufferBegin>0</vertexBufferBegin>
+                    <vertexBufferEnd>4891</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Creatures/MountHoverboard/MountHoverboard.(Texture).xdb#xpointer(/client.RenderCommon.Texture)"/>
+                <params type="CommonMaterialParams">
+                    <color>0</color>
+                    <contourColorModifier>0</contourColorModifier>
+                    <shininess>25</shininess>
+                    <specularColorModifier>0</specularColorModifier>
+                    <specularIntensity>1</specularIntensity>
+                    <bumpDisabled>false</bumpDisabled>
+                    <selfillum>false</selfillum>
+                    <useEnvContourColorFactor>false</useEnvContourColorFactor>
+                    <useEnvSpecularColorFactor>false</useEnvSpecularColorFactor>
+                    <useMaskColor>false</useMaskColor>
+                    <vertexBakedLight>true</vertexBakedLight>
+                </params>
+                <transparencyModifier>1</transparencyModifier>
+                <scrollAlpha>true</scrollAlpha>
+                <scrollRGB>true</scrollRGB>
+                <transparencyModifierIgnoreDiffuseAlpha>false</transparencyModifierIgnoreDiffuseAlpha>
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <useModifiers>false</useModifiers>
+                <visible>false</visible>
+            </material>
+            <materialName>MountHoverboard_psd_SG</materialName>
+            <name>Base_Body</name>
+            <skinIndex>0</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <outliningEnabled>true</outliningEnabled>
+            <useScaleForVirtualOffset>false</useScaleForVirtualOffset>
+        </Item>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>15450</indexBufferBegin>
+                    <indexBufferEnd>21636</indexBufferEnd>
+                    <vertexBufferBegin>4891</vertexBufferBegin>
+                    <vertexBufferEnd>6970</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>45189</indexBufferBegin>
+                    <indexBufferEnd>49968</indexBufferEnd>
+                    <vertexBufferBegin>4891</vertexBufferBegin>
+                    <vertexBufferEnd>6970</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>49968</indexBufferBegin>
+                    <indexBufferEnd>52773</indexBufferEnd>
+                    <vertexBufferBegin>4892</vertexBufferBegin>
+                    <vertexBufferEnd>6976</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Creatures/MountHoverboard/MountHoverboardTop.(Texture).xdb#xpointer(/client.RenderCommon.Texture)"/>
+                <params type="CommonMaterialParams">
+                    <color>0</color>
+                    <contourColorModifier>0</contourColorModifier>
+                    <shininess>25</shininess>
+                    <specularColorModifier>0</specularColorModifier>
+                    <specularIntensity>1</specularIntensity>
+                    <bumpDisabled>false</bumpDisabled>
+                    <selfillum>false</selfillum>
+                    <useEnvContourColorFactor>false</useEnvContourColorFactor>
+                    <useEnvSpecularColorFactor>false</useEnvSpecularColorFactor>
+                    <useMaskColor>false</useMaskColor>
+                    <vertexBakedLight>true</vertexBakedLight>
+                </params>
+                <transparencyModifier>1</transparencyModifier>
+                <scrollAlpha>true</scrollAlpha>
+                <scrollRGB>true</scrollRGB>
+                <transparencyModifierIgnoreDiffuseAlpha>false</transparencyModifierIgnoreDiffuseAlpha>
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <useModifiers>false</useModifiers>
+                <visible>false</visible>
+            </material>
+            <materialName>MountHoverboardTop_psd_SG</materialName>
+            <name>Top_Body</name>
+            <skinIndex>0</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <outliningEnabled>true</outliningEnabled>
+            <useScaleForVirtualOffset>false</useScaleForVirtualOffset>
+        </Item>
+        <Item/>
+        <Item>
+            <lods>
+                <Item>
+                    <indexBufferBegin>22032</indexBufferBegin>
+                    <indexBufferEnd>29598</indexBufferEnd>
+                    <vertexBufferBegin>7084</vertexBufferBegin>
+                    <vertexBufferEnd>9432</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>53157</indexBufferBegin>
+                    <indexBufferEnd>57474</indexBufferEnd>
+                    <vertexBufferBegin>7085</vertexBufferBegin>
+                    <vertexBufferEnd>9432</vertexBufferEnd>
+                </Item>
+                <Item>
+                    <indexBufferBegin>57474</indexBufferBegin>
+                    <indexBufferEnd>59853</indexBufferEnd>
+                    <vertexBufferBegin>7086</vertexBufferBegin>
+                    <vertexBufferEnd>9432</vertexBufferEnd>
+                </Item>
+            </lods>
+            <material>
+                <BlendEffect>BLEND_EFFECT_ADD</BlendEffect>
+                <diffuseTexture href="/Creatures/MountHoverboard/MountHoverboardWinter.(Texture).xdb#xpointer(/client.RenderCommon.Texture)"/>
+                <transparencyModifier>1</transparencyModifier>
+                <scrollAlpha>true</scrollAlpha>
+                <scrollRGB>true</scrollRGB>
+                <transparencyModifierIgnoreDiffuseAlpha>false</transparencyModifierIgnoreDiffuseAlpha>
+                <transparent>false</transparent>
+                <useFog>true</useFog>
+                <useModifiers>false</useModifiers>
+                <visible>false</visible>
+            </material>
+            <materialName>MountHoverboardWinter_psd_SG</materialName>
+            <name>Winter_Body</name>
+            <skinIndex>0</skinIndex>
+            <vertexBufferOffset>0</vertexBufferOffset>
+            <vertexDeclarationID>0</vertexDeclarationID>
+            <outliningEnabled>true</outliningEnabled>
+            <useScaleForVirtualOffset>false</useScaleForVirtualOffset>
+        </Item>
+    </modelElements>
+    <orientationMode>COMMON</orientationMode>
+    <sceneNodes>
+        <Item>
+            <name>Slot_TopFX</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0" z="4"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Global</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0" z="0"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Head</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0.034685" z="3"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_BodyFX</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.005593" y="0.028933" z="2"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_FX</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0" z="1"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Hand_R</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="-1" y="0" z="1"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Hand_L</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="1" y="0" z="1"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Eye_R</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="-0.3" y="-0.265314" z="3.3"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Eye_L</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.3" y="-0.265314" z="3.3"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Mouth</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.005593" y="-0.265314" z="3"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Mount_01</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0" z="0"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Mount_02</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0.46623" z="0"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Mount_03</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="-0.477421" z="0"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special90</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="-0.215804" z="-0.334037"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special91</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="1.23254" y="-0.119049" z="-0.233385"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special92</name>
+            <rotation x="1" y="0" z="0" w="4.37114e-08"/>
+            <position x="-1.23254" y="-0.119049" z="-0.233385"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special01</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="0.845999" z="-0.21603"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special02</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="-0.70672" z="-0.314817"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special03</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="-0.964241" z="-0.314817"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special04</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0" y="-1.22176" z="-0.314817"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special99</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.427035" y="0.214675" z="-0.749233"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special98</name>
+            <rotation x="1" y="0" z="0" w="4.37114e-08"/>
+            <position x="-0.427035" y="0.214675" z="-0.749234"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special11</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="-0.374153" y="-0.807586" z="3.96884"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special97</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="-0.374153" y="-0.807586" z="3.23254"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special10</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.529925" y="1.03784" z="4.39311"/>
+            <scale>1</scale>
+        </Item>
+        <Item>
+            <name>Slot_Special96</name>
+            <rotation x="0" y="0" z="0" w="1"/>
+            <position x="0.529925" y="1.03784" z="3.65681"/>
+            <scale>1</scale>
+        </Item>
+    </sceneNodes>
+    <skeleton>
+        <localID>2</localID>
+        <size>6440</size>
+    </skeleton>
+    <softFadeFactor>1</softFadeFactor>
+    <sortMode>OFFSETS</sortMode>
+    <version>2</version>
+    <vertexBuffer>
+        <localID>0</localID>
+        <size>341640</size>
+    </vertexBuffer>
+    <vertexDeclarations>
+        <Item>
+            <bitangent>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </bitangent>
+            <color>
+                <offset>24</offset>
+                <type>COLOR4</type>
+            </color>
+            <indices>
+                <offset>32</offset>
+                <type>UBYTE4</type>
+            </indices>
+            <normal>
+                <offset>20</offset>
+                <type>COLOR4</type>
+            </normal>
+            <position>
+                <offset>0</offset>
+                <type>FLOAT3</type>
+            </position>
+            <stride>36</stride>
+            <tangent>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </tangent>
+            <texcoord0>
+                <offset>12</offset>
+                <type>FLOAT2</type>
+            </texcoord0>
+            <texcoord1>
+                <offset>255</offset>
+                <type>UNUSED</type>
+            </texcoord1>
+            <weights>
+                <offset>28</offset>
+                <type>COLOR4</type>
+            </weights>
+        </Item>
+    </vertexDeclarations>
+    <visualSkeletonSize>24</visualSkeletonSize>
+    <absoluteDistanceFade>false</absoluteDistanceFade>
+    <castShadows>true</castShadows>
+    <decalModel>false</decalModel>
+    <enableDistanceFade>true</enableDistanceFade>
+    <exportDefaultAnimation>true</exportDefaultAnimation>
+    <fadeByCameraCollision>true</fadeByCameraCollision>
+    <ignoreFadeDistanceFactor>true</ignoreFadeDistanceFactor>
+    <ignoreZ>false</ignoreZ>
+    <largeModel>false</largeModel>
+    <lodModel>true</lodModel>
+    <portalModel>false</portalModel>
+    <useColors>true</useColors>
+    <useDecals>false</useDecals>
+    <useProceduralEffect>true</useProceduralEffect>
+    <vb32>false</vb32>
+</Geometry>

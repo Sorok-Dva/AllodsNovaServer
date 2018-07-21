@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.20165" y="0.523736" z="3.65803"/>
+        <extents x="3.70893" y="3.23773" z="2.91722"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.274588" y="0.585675" z="3.48317"/>
+        <extents x="2.76342" y="2.71153" z="2.48027"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>47564</size>
+    </animation>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>154</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>48</scriptID>
+    <scriptName>jump</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

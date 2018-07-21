@@ -10,7 +10,7 @@
 	<budget>0</budget>
 	<showItemContextAction>Never</showItemContextAction>
 	<itemClass href="/Mechanics/ItemClasses/Other.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemClass)" />
-	<stackLimit>7</stackLimit>
+	<stackLimit>1000</stackLimit>
 	<quality href="/Mechanics/ItemQualities/Uncommon.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemQuality)" />
 	<binding>BindOnPickup</binding>
 	<lifeLengthCap>572400000</lifeLengthCap>

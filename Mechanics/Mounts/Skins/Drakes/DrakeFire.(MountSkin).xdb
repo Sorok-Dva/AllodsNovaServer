@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070529</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Drakes/DrakeFire.Description.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Drakes/DrakeFire.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/FairySpellsBoxSource.txt" />
+    <image href="/Interface/Icons/Mounts/MountDrake02.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <unlock href="/Mechanics/Mounts/Skins/Drakes/DrakeFire.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Drake/DrakeFire.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>false</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

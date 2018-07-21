@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070411</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Bears/BearTrial.(MountSkin).Description02.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Bears/BearTrial.(MountSkin).Name02.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/Bears/BearTrial.(MountSkin).SourceDescription02.txt" />
+    <image href="/Interface/Icons/Mounts/MountBear.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <p2pSourceDescription href="/Mechanics/Mounts/Skins/Bears/BearTrial.(MountSkin).P2pSourceDescription.txt" />
+    <unlock href="/Mechanics/Mounts/Skins/Bears/BearTrial.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Bear/Bear.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>false</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

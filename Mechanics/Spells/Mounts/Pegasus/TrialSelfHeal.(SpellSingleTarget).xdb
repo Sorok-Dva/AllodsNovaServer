@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.Spell>
+    <Header>
+        <resourceId>2018420440</resourceId>
+    </Header>
+    <contextActionInfo>
+        <priority>100</priority>
+    </contextActionInfo>
+    <groups>
+        <Item href="/Mechanics/Spells/Groups/MountedSpells.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+    </groups>
+    <Description href="/Mechanics/Spells/Mounts/Pegasus/TrialSelfHeal.(SpellSingleTarget).Description.txt" />
+    <Name href="/Mechanics/Spells/Mounts/Pegasus/TrialSelfHeal.(SpellSingleTarget).Name.txt" />
+    <defaultAction>-1</defaultAction>
+    <element>PHYSICAL</element>
+    <iffPolicy>Friends</iffPolicy>
+    <image href="/Interface/Icons/Mounts/SpellsMounts/Treatment.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <level>1</level>
+    <mechanics>
+        <casterConditions />
+    </mechanics>
+    <prepareDuration>0</prepareDuration>
+    <sysName></sysName>
+    <targetType>STTSelf</targetType>
+    <uiSpellBookPageType>SPELLBOOK_PAGE_NORMAL</uiSpellBookPageType>
+    <autoAppendToActionPanel>true</autoAppendToActionPanel>
+    <ignoreGlobalCooldown>false</ignoreGlobalCooldown>
+    <isExploit>false</isExploit>
+    <isHiddenAction>false</isHiddenAction>
+    <isWorkOnDead>false</isWorkOnDead>
+    <launchWhenReady>false</launchWhenReady>
+    <needInFront>true</needInFront>
+    <replaceLowRanks>false</replaceLowRanks>
+    <triggersGlobalCooldown>true</triggersGlobalCooldown>
+</gameMechanics.constructor.schemes.spell.Spell>

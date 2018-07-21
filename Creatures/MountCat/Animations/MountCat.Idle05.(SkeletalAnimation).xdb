@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.0569495" y="0.86787" z="1.02939"/>
+        <extents x="1.34847" y="2.79008" z="1.09405"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.00674093" y="0.863722" z="1.05052"/>
+        <extents x="0.828236" y="2.78593" z="1.07292"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>72984</size>
+    </animation>
+    <animationEvents>
+        <Item>
+            <event>0.866667</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+        <Item>
+            <event>1.4</event>
+            <id>1</id>
+            <name>Sound</name>
+        </Item>
+    </animationEvents>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>161</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>182</scriptID>
+    <scriptName>idle05</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

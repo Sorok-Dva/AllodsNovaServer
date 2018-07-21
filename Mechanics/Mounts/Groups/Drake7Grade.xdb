@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountGroupResource>
+    <Header>
+        <resourceId>42070392</resourceId>
+    </Header>
+    <mounts>
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/Drake.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeFire.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakePearl.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeSilver.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeGold.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeBronze.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeForest.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeArchitect.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeGold_p2p.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+        <Item href="/Mechanics/Mounts/6thGrade/Mounts/DrakeDead.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+    </mounts>
+</gameMechanics.constructor.schemes.mount.MountGroupResource>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.map.PatchObjects>
+    <Header>
+        <resourceId>2018420472</resourceId>
+    </Header>
+    <objects>
+        <Item type="gameMechanics.map.Locator">
+            <scriptID>RedPoint_1</scriptID>
+            <scanRadius>0</scanRadius>
+            <position x="11.8445" y="97.2439" z="3.87231" />
+        </Item>
+        <Item type="gameMechanics.map.Locator">
+            <scriptID>RedPoint_2</scriptID>
+            <scanRadius>0</scanRadius>
+            <position x="9.91594" y="106.965" z="3.81568" />
+        </Item>
+        <Item type="gameMechanics.map.Locator">
+            <scriptID>RedPoint_3</scriptID>
+            <scanRadius>0</scanRadius>
+            <position x="14.6152" y="115.925" z="3.57078" />
+        </Item>
+    </objects>
+</gameMechanics.map.PatchObjects>

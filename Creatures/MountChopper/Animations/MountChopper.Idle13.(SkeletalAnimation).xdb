@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.154408" y="0.356111" z="2.32316"/>
+        <extents x="4.05513" y="4.02042" z="2.67389"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.00661796" y="-0.216194" z="1.43263"/>
+        <extents x="1.93292" y="3.22978" z="1.49805"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>24192</size>
+    </animation>
+    <binaryFile href="/Creatures/MountChopper/Animations/MountChopper.Idle13.(SkeletalAnimation).bin"/>
+    <binaryVersion>2</binaryVersion>
+    <blendTime>0</blendTime>
+    <endFrame>134</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>322</scriptID>
+    <scriptName>idle13</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

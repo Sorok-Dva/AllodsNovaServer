@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.0012778" y="-0.134144" z="0.897958"/>
+        <extents x="2.14631" y="3.30967" z="1.44172"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.0012778" y="-0.134144" z="0.897958"/>
+        <extents x="2.14631" y="3.30967" z="1.44172"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>7336</size>
+    </animation>
+    <binaryFile href="/Creatures/MountChopper/Animations/MountChopper.EmoteAFK01.(SkeletalAnimation).bin"/>
+    <binaryVersion>2</binaryVersion>
+    <blendTime>0.8</blendTime>
+    <endFrame>361</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>233</scriptID>
+    <scriptName>emoteAFK01</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountResource>
+    <Header>
+        <resourceId>42070601</resourceId>
+    </Header>
+    <contextActionInfo>
+        <priority>100</priority>
+    </contextActionInfo>
+    <Name href="/Mechanics/Mounts/7thGrade/Mounts/Egida_upgrade.(MountResource).Name.txt" />
+    <alternativeSkins href="/Mechanics/Mounts/Skins/BattleMounts/Egida.(SkinListResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.SkinListResource)" />
+    <basicSkin href="/Mechanics/Mounts/Skins/BattleMounts/BattleMount03.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    <contextActions>
+        <Item href="/Mechanics/Spells/Mounts/BattleStation/FireRay/Spell01_upgrade.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/BattleStation/IceRay/Spell01_upgrade.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/BattleStation/LightningRay/Spell01_upgrade.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/BattleStation/Overdrive/Spell01_upgrade.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+        <Item href="/Mechanics/Spells/Mounts/BattleStation/Energize/Spell01_upgrade.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+    </contextActions>
+    <corpulence>3.5</corpulence>
+    <grade>7</grade>
+    <mechanics>
+        <health>1.46215</health>
+        <healthDelta>0.021397</healthDelta>
+        <healthLevelDelta>0</healthLevelDelta>
+        <prepareDuration>600</prepareDuration>
+        <prepareDurationDelta>30</prepareDurationDelta>
+        <regen>0.2</regen>
+        <speed>1.3864</speed>
+        <speedDelta>0.0089</speedDelta>
+    </mechanics>
+    <overrideMounts>
+        <Item href="/Mechanics/Mounts/4thGrade/Mounts/BattleMount.(MountResource).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountResource)" />
+    </overrideMounts>
+    <penaltyCalcer type="gameMechanics.elements.calcers.OverLevelPenaltyCalcer">
+        <exponent>1</exponent>
+        <level>75</level>
+    </penaltyCalcer>
+    <sysName></sysName>
+    <timeLeft>
+        <day>0</day>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <ms>0</ms>
+    </timeLeft>
+    <canBeMorphed>true</canBeMorphed>
+    <isExoMount>false</isExoMount>
+    <isProbe>false</isProbe>
+</gameMechanics.constructor.schemes.mount.MountResource>

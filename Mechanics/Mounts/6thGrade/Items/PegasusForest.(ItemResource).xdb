@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.item.ItemResource>
     <Header>
-        <resourceId>2018420603</resourceId>
+        <resourceId>42070058</resourceId>
     </Header>
     <actionPreviewInfo>
         <elseInfo />
@@ -26,7 +26,7 @@
     <showItemContextAction>Default</showItemContextAction>
     <slot>UNDRESSABLE</slot>
     <source>Quest</source>
-    <spell href="/Mechanics/Mounts/6thGrade/Spells/PegasusForest.(SpellCasterSelf).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
+    <spell href="/Mechanics/Mounts/6thGrade/Spells/PegasusForest.(SpellSingleTarget).xdb#xpointer(/gameMechanics.constructor.schemes.spell.Spell)" />
     <stackLimit>1</stackLimit>
     <sysName></sysName>
     <canBeDeposited>true</canBeDeposited>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="-0.0177163" y="-0.0749084" z="0.172763"/>
+        <extents x="1.29011" y="1.28719" z="0.51511"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.0177163" y="-0.0749084" z="0.172763"/>
+        <extents x="1.29011" y="1.28719" z="0.51511"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>3748</size>
+    </animation>
+    <binaryVersion>2</binaryVersion>
+    <endFrame>80</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>119</scriptID>
+    <scriptName>emoteAFK</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

@@ -3,41 +3,56 @@
 	<Header>
 		<resourceId>20184206</resourceId>
 	</Header>
-	<table type="gameMechanics.constructor.schemes.item.LootTableAnd">
-		<entries>
-			<Item>
-				<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
-					<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-						<item href="/Items/Mechanics/Trash/TrashDust50.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-					</itemProvider>
-					<minNumber>1</minNumber>
-					<maxNumber>50</maxNumber>
-					<isForAll>false</isForAll>
-				</lootTable>
-				<chance>1</chance>
-			</Item>
-			<Item>
-				<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
-					<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-						<item href="/Items/Mechanics/Trash/TrashIceCrystal50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-					</itemProvider>
-					<minNumber>1</minNumber>
-					<maxNumber>50</maxNumber>
-					<isForAll>false</isForAll>
-				</lootTable>
-				<chance>1</chance>
-			</Item>
-			<Item>
-				<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
-					<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-						<item href="/Items/Mechanics/Trash/TrashIceCrystal50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
-					</itemProvider>
-					<minNumber>1</minNumber>
-					<maxNumber>100</maxNumber>
-					<isForAll>false</isForAll>
-				</lootTable>
-				<chance>1</chance>
-			</Item>
-		</entries>
+	<table type="gameMechanics.constructor.schemes.item.LootTablePrecious">
+		<table type="gameMechanics.constructor.schemes.item.LootTableAnd">
+			<entries>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Mechanics/Trash/TrashDust50.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+						<minNumber>1</minNumber>
+						<maxNumber>25</maxNumber>
+						<isForAll>false</isForAll>
+					</lootTable>
+					<chance>0.5</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Mechanics/Trash/TrashIceCrystal50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+						<minNumber>1</minNumber>
+						<maxNumber>25</maxNumber>
+						<isForAll>false</isForAll>
+					</lootTable>
+					<chance>0.5</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Agents/SA_Act.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+					</lootTable>
+					<chance>0.25</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/ItemMall/Services/Factors/Ama_Factor02.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+					</lootTable>
+					<chance>0.05</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/QuestItems/ElementalPlateu/PartOfMana/PartOfMana.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+					</lootTable>
+					<chance>1</chance>
+				</Item>
+			</entries>
+		</table>
 	</table>
 </gameMechanics.constructor.schemes.item.LootTableResource>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.mount.MountSkin>
-        <Header>
-		<resourceId>2018420611</resourceId>
-	</Header>
-	<Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusForest.(MountSkin).Description.txt" />
+    <Header>
+        <resourceId>42070399</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Pegasus/PegasusForest.(MountSkin).Description.txt" />
     <Name href="/Mechanics/Mounts/Skins/Pegasus/PegasusForest.(MountSkin).Name.txt" />
     <SourceDescription href="/Mechanics/Mounts/Skins/ForestBoxSource.txt" />
     <image href="/Interface/Icons/Mounts/MountPegasusEnchantedForest.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SkeletalAnimation>
+    <aabb>
+        <center x="0.115523" y="0.323604" z="3.08728"/>
+        <extents x="4.44592" y="3.53846" z="3.14534"/>
+    </aabb>
+    <aabbLastFrame>
+        <center x="-0.156808" y="0.522177" z="2.79773"/>
+        <extents x="2.69632" y="2.73731" z="2.24723"/>
+    </aabbLastFrame>
+    <animation>
+        <localID>0</localID>
+        <size>46728</size>
+    </animation>
+    <binaryVersion>2</binaryVersion>
+    <blendTime>0.4</blendTime>
+    <endFrame>153</endFrame>
+    <fps>30</fps>
+    <loopFrame>0</loopFrame>
+    <scriptID>27</scriptID>
+    <scriptName>run</scriptName>
+    <speed>1</speed>
+    <startFrame>0</startFrame>
+    <looped>true</looped>
+</SkeletalAnimation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.MountSkin>
+    <Header>
+        <resourceId>42070566</resourceId>
+    </Header>
+    <Description href="/Mechanics/Mounts/Skins/Wyverns/WyvernIM.(MountSkin).Description.txt" />
+    <Name href="/Mechanics/Mounts/Skins/Wyverns/WyvernIM.(MountSkin).Name.txt" />
+    <SourceDescription href="/Mechanics/Mounts/Skins/ItemMallSource.txt" />
+    <image href="/Interface/Icons/Mounts/WivernItemMall.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
+    <unlock href="/Mechanics/Mounts/Skins/Wyverns/WyvernIM.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+    <visualMount href="/Client/VisualMounts/Praiden/PraidenItemMall.(VisualMount).xdb#xpointer(/client.VisualConstructor.VisualMount)" />
+    <p2p>false</p2p>
+</gameMechanics.constructor.schemes.mount.MountSkin>

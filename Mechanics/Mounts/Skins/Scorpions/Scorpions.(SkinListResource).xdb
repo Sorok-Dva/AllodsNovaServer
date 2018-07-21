@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.mount.SkinListResource>
+    <Header>
+        <resourceId>42070559</resourceId>
+    </Header>
+    <skins>
+        <Item href="/Mechanics/Mounts/Skins/Scorpions/Scorpion.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Scorpions/ScorpionStone.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Scorpions/ScorpionLava.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Scorpions/ScorpionArmor.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+        <Item href="/Mechanics/Mounts/Skins/Scorpions/ScorpionManaPunk.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
+    </skins>
+</gameMechanics.constructor.schemes.mount.SkinListResource>

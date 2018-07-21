@@ -9,6 +9,42 @@
 				<Item>
 					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
 						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Mechanics/Trash/TrashDust50.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+						<minNumber>15</minNumber>
+						<maxNumber>30</maxNumber>
+					</lootTable>
+					<chance>1</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Mechanics/Trash/TrashIceCrystal50.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+						<minNumber>15</minNumber>
+						<maxNumber>30</maxNumber>
+					</lootTable>
+					<chance>1</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/Items/Agents/SA_Act.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+					</lootTable>
+					<chance>0.5</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
+							<item href="/ItemMall/Services/Factors/Ama_Factor02.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+						</itemProvider>
+					</lootTable>
+					<chance>0.5</chance>
+				</Item>
+				<Item>
+					<lootTable type="gameMechanics.constructor.schemes.item.LootTableSingleItem">
+						<itemProvider type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
 							<item href="/Items/QuestItems/ElementalPlateu/PartOfStone/PartOfStone.(ItemResource).xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 						</itemProvider>
 					</lootTable>
