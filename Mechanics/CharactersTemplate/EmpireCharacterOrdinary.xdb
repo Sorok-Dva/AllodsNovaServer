@@ -3,6 +3,7 @@
 	<Header>
 		<resourceId>268444680</resourceId>
 	</Header>
+	<level>4</level>
 	<faction href="/World/Factions/Empire.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
 	<position>
 		<pointer>
