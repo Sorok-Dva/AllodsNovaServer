@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.mob.interaction.Cue>
+	<Header>
+		<resourceId>42070647</resourceId>
+	</Header>
+	<text href="MainTableText.txt" />
+	<nextCues>
+		<Item href="Stuff1Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="Stuff2Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="Stuff3Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="Stuff4Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="Stuff5Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="Stuff6Table.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+		<Item href="SpecialTable.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+	</nextCues>
+</gameMechanics.world.mob.interaction.Cue>

@@ -6,8 +6,8 @@
 	<name href="Zones/InstEmpire1/Ship_Name.txt" />
 	<exit type="mapLoader.pointer.MapPointerPos">
 		<pointer>
-			<scriptID>ZE1_Start</scriptID>
-			<map href="/Maps/Hadagan_Underground/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+			<scriptID>NewStart</scriptID>
+			<map href="/Maps/Hadagan_Sanatorium/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 		</pointer>
 	</exit>
 	<mapTemplate href="/System/MapTemplates/StartInstance.xdb#xpointer(/mapLoader.MapTemplate)" />

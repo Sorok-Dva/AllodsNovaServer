@@ -42,8 +42,8 @@
 				<elseImpacts>
 					<Item type="gameMechanics.elements.impacts.ImpactSetHearthstone">
 						<locator>
-							<scriptID>Capital_AE1_Teleport</scriptID>
-							<map href="/Maps/Hadagan/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+							<scriptID>StartZone</scriptID>
+							<map href="/Maps/Hadagan_Sanatorium/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 						</locator>
 					</Item>
 				</elseImpacts>
@@ -122,7 +122,7 @@
 			<!-- FREE SHIP -->
 			<Item type="gameMechanics.elements.impacts.ImpactGiveItem">
 				<item type="gameMechanics.constructor.schemes.item.SimpleItemProvider">
-					<item href="/Items/BoxSpecialLoot/WelcomeBack/WelcomeBox.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+					<item href="/Items/BoxSpecialLoot/WelcomeBack/WelcomeBox.xdb#xpsointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
 				</item>
 				<count>1</count>
 			</Item>

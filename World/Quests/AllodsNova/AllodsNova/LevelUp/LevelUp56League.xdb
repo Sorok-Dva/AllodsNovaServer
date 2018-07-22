@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.quest.QuestResource>
+	<Header>
+		<resourceId>42070644</resourceId>
+	</Header>
+	<name href="LvlUp56Name.txt" />
+	<goal href="LvlUp56GoalText.txt" />
+	<startText href="LvlUp56StartText.txt" />
+	<checkText href="LvllUp56CheckText.txt" />
+	<finishText href="LvlUp56FinishText.txt" />
+	<plotline />
+	<type>QUEST_TYPE_SOLO</type>
+	<pvp>false</pvp>
+	<autoSetReturnLocation>true</autoSetReturnLocation>
+	<returnLocation>
+		<zone href="/Maps/Kania_AL1/Zones/ArchipelagoLeague1/AstralCoast.(ZoneResource).xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
+		<position x="2251.953125" y="5118.488770" z="21.338699" />
+	</returnLocation>
+	<finisher type="gameMechanics.elements.quest.QuestFinisherMob">
+		<mobWorld href="/Characters/Elf_female/Instances/ArchipelagoLeague1/OrcQuard.(MobWorld).xdb#xpointer(/gameMechanics.world.mob.MobWorld)" />
+	</finisher>
+	<reward>
+		<mandatoryItems>
+			<Item>
+				<item href="/Items/LevelUp/LevelUp56.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemResource)" />
+			</Item>
+		</mandatoryItems>
+		<experience>20</experience>
+		<money>10000000</money>
+		<reputations />
+	</reward>
+	<secretSequence>false</secretSequence>
+	<tutorial>false</tutorial>
+	<zone href="/Maps/Kania_AL1/Zones/ArchipelagoLeague1/ArchipelagoLeague1.xdb#xpointer(/gameMechanics.map.zone.ZoneResource)" />
+	<requiredLevel type="gameMechanics.formulas.IntConstantValue">
+		<value>1</value>
+	</requiredLevel>
+	<level type="gameMechanics.formulas.IntConstantValue">
+		<value>1</value>
+	</level>
+</gameMechanics.constructor.schemes.quest.QuestResource>

@@ -17,7 +17,7 @@
 	<corpseDuration>600000</corpseDuration>
 	<interactions>
 		<availableQuests>
-			<Item href="/World/Quests/AstralHangarLeague/Astral_TicketGiveaway/Astral_TicketGiveaway.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
+			<Item href="/World/Quests/AllodsNova/AstralKeys/League.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
 		</availableQuests>
 		<cues />
 	</interactions>

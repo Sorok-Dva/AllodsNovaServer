@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.mob.interaction.Cue>
+	<Header>
+		<resourceId>42070652</resourceId>
+	</Header>
+	<name href="Stuff5TableName.txt" />
+	<text href="Stuff5TableText.txt" />
+	<impacts>
+		<Item type="gameMechanics.elements.impacts.ImpactShowVendorTable">
+			<vendorTable href="/Mechanics/Spells/Cheats/Vendors/RewardVendor/AstralEquipment4.xdb#xpointer(/gameMechanics.world.mob.interaction.VendorTable)" />
+		</Item>
+	</impacts>
+</gameMechanics.world.mob.interaction.Cue>

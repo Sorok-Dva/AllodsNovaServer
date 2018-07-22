@@ -6,13 +6,23 @@
 	<persistentParts>
 		<Item type="gameMechanics.world.cellReplication.MapWideReplicated" />
 	</persistentParts>
-	<name href="Name.txt" />
-	<corpulence>5.1465</corpulence>
-	<visMob href="/Creatures/Archangel/Archangel.(VisualMob).xdb#xpointer(/VisualMob)" />
+	<name href="STensessName.txt" />
+	<corpulence>3.1465</corpulence>
+	<visMob href="/Creatures/Archangel/AN_Archangel.(VisualMob).xdb#xpointer(/VisualMob)" />
 	<title href="" />
 	<kind href="/Mechanics/Creatures/GoblinMage/GoblinMageEliteKind_Deathrealm.(MobKind).xdb#xpointer(/gameMechanics.world.mob.MobKind)" />
 	<walkSpeed>3.2</walkSpeed>
 	<faction href="/World/Factions/NeutralFriendly.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+	<interactions>
+		<availableQuests>
+			<Item href="/World/Quests/AllodsNova/FarmStuff/DailyQuest.xdb#xpointer(/gameMechanics.constructor.schemes.quest.QuestResource)" />
+		</availableQuests>
+		<cues>
+			<Item>
+				<cue href="/Mechanics/VendorsTables/STensessStuff/Cues/MainTable.xdb#xpointer(/gameMechanics.world.mob.interaction.Cue)" />
+			</Item>
+		</cues>
+	</interactions>
 	<usesWeapon>true</usesWeapon>
 	<quality href="/Mechanics/MobQualities/Elite.xdb#xpointer(/gameMechanics.world.mob.MobQuality)" />
 	<nonTaggable>true</nonTaggable>
