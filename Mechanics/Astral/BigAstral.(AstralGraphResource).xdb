@@ -5,7 +5,7 @@
 	</Header>
 	<addons>
 		<Item href="Addons/Addon01/AstralAddon.xdb#xpointer(/gameMechanics.world.bigAstral.AstralAddonResource)" />
-		<!--Item href="Addons/Addon02/AstralAddon.xdb#xpointer(/gameMechanics.world.bigAstral.AstralAddonResource)" -->
+		<Item href="Addons/Addon02/AstralAddon.xdb#xpointer(/gameMechanics.world.bigAstral.AstralAddonResource)"/>
 		<Item href="Addons/Addon03/AstralAddon.xdb#xpointer(/gameMechanics.world.bigAstral.AstralAddonResource)" />
 	</addons>
 </gameMechanics.world.bigAstral.AstralGraphResource>
