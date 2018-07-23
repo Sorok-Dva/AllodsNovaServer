@@ -25,7 +25,7 @@
 	<name href="DreadnoughtDemilitarized.(ItemResource).Name.txt" />
 	<category href="/Mechanics/ItemCategories/ItemMall.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)" />
 	<price type="gameMechanics.constructor.schemes.item.price.ItemPriceMoney">
-		<sellPrice>-1</sellPrice>
-		<buyPrice>-1</buyPrice>
+		<sellPrice>1000000000</sellPrice>
+		<buyPrice>9509990000</buyPrice>
 	</price>
 </gameMechanics.constructor.schemes.item.ItemResource>

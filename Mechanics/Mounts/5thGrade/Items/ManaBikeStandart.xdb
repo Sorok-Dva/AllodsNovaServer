@@ -35,8 +35,8 @@
 	<category href="/Mechanics/ItemCategories/ItemMall.xdb#xpointer(/gameMechanics.constructor.schemes.item.ItemCategoryTerminal)" />
 	<includeInBoxes>false</includeInBoxes>
 	<price type="gameMechanics.constructor.schemes.item.price.ItemPriceMoney">
-		<sellPrice>-1</sellPrice>
-		<buyPrice>-1</buyPrice>
+		<sellPrice>100000000</sellPrice>
+		<buyPrice>10000000000</buyPrice>
 	</price>
 	<customBuyPrice>true</customBuyPrice>
 	<customSellPrice>true</customSellPrice>

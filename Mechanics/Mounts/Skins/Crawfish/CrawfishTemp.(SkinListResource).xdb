@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<gameMechanics.constructor.schemes.mount.SkinListResource>
-    <Header>
-        <resourceId>42070498</resourceId>
-    </Header>
-    <skins>
-        <Item href="/Mechanics/Mounts/Skins/Crawfish/Crawfish.(MountSkin).xdb#xpointer(/gameMechanics.constructor.schemes.mount.MountSkin)" />
-    </skins>
-</gameMechanics.constructor.schemes.mount.SkinListResource>

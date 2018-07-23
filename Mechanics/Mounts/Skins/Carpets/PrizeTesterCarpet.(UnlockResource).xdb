@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <gameMechanics.constructor.schemes.unlock.UnlockResource>
-    <Header>
-        <resourceId>42070454</resourceId>
-    </Header>
-    <binding>Soul</binding>
-    <category href="/Mechanics/Unlocks/Categories/Mounts.(UnlockCategory).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockCategoryResource)" />
-    <description href="/Mechanics/Mounts/Skins/Carpets/PrizeTesterCarpet.(UnlockResource).Description.txt" />
-    <image href="/Interface/Icons/Mounts/MountCarpet.(UISingleTexture).xdb#xpointer(/client.Widgets.UISingleTexture)" />
-    <name href="/Mechanics/Mounts/Skins/Carpets/PrizeTesterCarpet.(UnlockResource).Name.txt" />
-    <sysUIScriptName></sysUIScriptName>
-    <isHidden>false</isHidden>
+	<Header>
+		<resourceId>739821543</resourceId>
+	</Header>
+	<name href="PrizeTesterCarpet.(UnlockResource).Name.txt" />
+	<description href="PrizeTesterCarpet.(UnlockResource).Description.txt" />
+	<image href="/Interface/Icons/Mounts/MountCarpet.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<category href="/Mechanics/Unlocks/Categories/Mounts.(UnlockCategory).xdb#xpointer(/UnlockCategory)" />
+	<binding>Soul</binding>
 </gameMechanics.constructor.schemes.unlock.UnlockResource>

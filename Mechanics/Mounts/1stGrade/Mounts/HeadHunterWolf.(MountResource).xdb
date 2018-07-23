@@ -5,12 +5,12 @@
 	</Header>
 	<Name href="HeadHunterWolf.(MountResource).Name.txt" />
 	<grade>1</grade>
-	<speed>1.57</speed>
-	<speedDelta>0.2</speedDelta>
-	<health>3</health>
-	<healthDelta>2</healthDelta>
+	<speed>4.05</speed>
+	<speedDelta>0.0</speedDelta>
+	<health>0.1</health>
+	<healthDelta>0.0</healthDelta>
 	<regen>0.1</regen>
-	<prepareDuration>900</prepareDuration>
+	<prepareDuration>100</prepareDuration>
 	<prepareDurationDelta>50</prepareDurationDelta>
 	<ridingEffects>
 		<Item type="gameMechanics.elements.effects.ImmunityToBuffs">
