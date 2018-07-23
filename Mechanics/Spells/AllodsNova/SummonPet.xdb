@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
+	<Header>
+		<resourceId>42070946</resourceId>
+	</Header>
+	<Name href="FounderOpenName.txt" />
+	<Description href="FounderOpenDes.txt" />
+	<priority>100</priority>
+		<contextName href="" />
+		<contextDescription href="" />
+		<contextImage href="/Interface/Icons/Context/ContextSummonSkeleton.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	</contextActionInfo>
+	<groups>
+		<Item href="/Mechanics/Spells/Groups/Magics.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+		<Item href="/Mechanics/Spells/Groups/VoiceSpells.xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+		<Item href="/Mechanics/Spells/Groups/DragonRelic7.(ActionGroup).xdb#xpointer(/gameMechanics.constructor.basicInterfaces.ActionGroup)" />
+	</groups>
+	<image href="/Interface/Icons/Spells/Necromancer/SummonBanshee.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<visualScripts href="/Spells/VisScripts/Necromancer/SummonSkeleton.(SpellVisScripts).xdb#xpointer(/SpellVisScripts)" />
+	<targetType>STTSelf</targetType>
+	<iffPolicy>Friends</iffPolicy>
+	<triggersGlobalCooldown>true</triggersGlobalCooldown>
+	<ignoreGlobalCooldown>false</ignoreGlobalCooldown>
+	<needInGroup>false</needInGroup>
+	<launchWhenReady>false</launchWhenReady>
+	<needInFront>false</needInFront>
+	<mechanics>
+		<casterResources>
+		</casterResources>
+		<casterImpacts>
+			<Item type="gameMechanics.world.pet.ImpactSummonPet">
+				<mobResource href="/Mechanics/Spells/Necromancer/SummonBanshee/ZemCasterR1.xdb" />
+				<petType href="/Mechanics/Pets/NecroPetType.xdb#xpointer(/gameMechanics.world.pet.PetTypeResource)" />
+				<destination type="gameMechanics.map.destination.RelativeRotatePos">
+					<base type="gameMechanics.map.destination.RelativePos">
+						<yaw type="constructor.basicElements.AngleRadians">
+							<value>0</value>
+						</yaw>
+						<faceSourcePos>true</faceSourcePos>
+						<coord x="0" y="0" z="0" />
+					</base>
+					<offset>4</offset>
+					<yaw type="constructor.basicElements.AngleRadians">
+						<value>1.57</value>
+					</yaw>
+				</destination>
+				<impacts>
+					<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
+						<buff href="/Mechanics/Spells/Necromancer/SummonSkeleton/BuffVis.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+						<scalerTarget />
+						<durationScaler />
+						<durationScalerTarget />
+						<allowOverrideCaster>false</allowOverrideCaster>
+					</Item>
+			</impacts>
+			<copyStats>true</copyStats>
+			<plane href="" />
+		</casterImpacts>
+	</mechanics>
+	<speed>2000</speed>
+</gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
