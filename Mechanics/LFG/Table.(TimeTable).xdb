@@ -5,7 +5,7 @@
 	</Header>
 	<entries>
 		<Item type="timetables.TimeEntryHourlyResource">
-			<periodDivisor>2</periodDivisor>
+			<periodDivisor>4</periodDivisor>
 		</Item>
 	</entries>
 </timetables.TimeTable>

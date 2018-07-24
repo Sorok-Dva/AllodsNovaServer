@@ -9,10 +9,10 @@
 	<statics>
 		<sectors>
 			<Item>
-				<x>-1</x>
+				<x>0</x>
 				<y>0</y>
-				<astralTier href="TierOldAstralAstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
+				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
+				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>1</astralLevel>
 				<avatarLevel>1</avatarLevel>
 				<resource href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
