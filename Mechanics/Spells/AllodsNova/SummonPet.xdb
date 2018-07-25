@@ -29,8 +29,8 @@
 		</casterResources>
 		<casterImpacts>
 			<Item type="gameMechanics.world.pet.ImpactSummonPet">
-				<mobResource href="/Mechanics/Spells/Necromancer/SummonBanshee/ZemCasterR1.xdb" />
-				<petType href="/Mechanics/Pets/NecroPetType.xdb#xpointer(/gameMechanics.world.pet.PetTypeResource)" />
+				<mobResource href="/Creatures/Stensess.xdb" />
+				<petType href="/Mechanics/Pets/PseudoPet.xdb#xpointer(/gameMechanics.world.pet.PetTypeResource)" />
 				<destination type="gameMechanics.map.destination.RelativeRotatePos">
 					<base type="gameMechanics.map.destination.RelativePos">
 						<yaw type="constructor.basicElements.AngleRadians">

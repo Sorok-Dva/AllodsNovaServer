@@ -38,6 +38,9 @@
 							<map href="/Maps/Kania_AL1/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 						</locator>
 					</Item>
+					<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+						<unlock href="/Mechanics/Unlocks/Locations/AstralHangarLeague_VIP/TeleportLocations/AstralHangarLeague_VIP.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+					</Item>
 				</impacts>
 				<elseImpacts>
 					<Item type="gameMechanics.elements.impacts.ImpactSetHearthstone">
@@ -45,6 +48,9 @@
 							<scriptID>StartZone</scriptID>
 							<map href="/Maps/Hadagan_Sanatorium/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 						</locator>
+					</Item>
+					<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+						<unlock href="/Mechanics/Unlocks/Locations/AstralHangarHadagan_VIP/TeleportLocations/AstralHangarHadagan_VIP.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
 					</Item>
 				</elseImpacts>
 			</Item>
