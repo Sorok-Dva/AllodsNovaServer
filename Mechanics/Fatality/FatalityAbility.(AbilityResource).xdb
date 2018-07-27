@@ -15,7 +15,7 @@
 			</killerImpacts>
 			<impactsToKiller>
 				<Item type="gameMechanics.constructor.schemes.buff.BuffAttacher">
-					<buff href="/Mechanics/Spells/Cheats/Freeze.Buff.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+					<buff href="/Mechanics/Spells/Cheats/Freeze/Buff.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
 				</Item>
 				<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
 					<predicates>
