@@ -18,10 +18,24 @@
 				<map href="/Maps/Hadagan/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
 			</locator>
 		</Item>
+		<Item>
+			<faction href="/World/Factions/AllodsNovaStaff.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+			<locator>
+				<scriptID>KaniaCapital</scriptID>
+				<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+			</locator>
+		</Item>
 	</globalGraveyards>
 	<globalSanctuaries>
 		<Item>
 			<faction href="/World/Factions/League.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+			<locator>
+				<scriptID>KaniaCapital</scriptID>
+				<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
+			</locator>
+		</Item>
+		<Item>
+			<faction href="/World/Factions/AllodsNovaStaff.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
 			<locator>
 				<scriptID>KaniaCapital</scriptID>
 				<map href="/Maps/Kania/MapResource.xdb#xpointer(/mapLoader.MapResource)" />
