@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <BuffVisScripts>
 	<action type="CreatureFatalityAbilityAction">
-		<fatalityType>DRUID</fatalityType>
+		<fatalityType>PALADIN</fatalityType>
 	</action>
 </BuffVisScripts>

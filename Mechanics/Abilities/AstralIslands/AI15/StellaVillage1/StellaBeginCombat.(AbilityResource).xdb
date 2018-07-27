@@ -8,18 +8,18 @@
 		<Item type="gameMechanics.elements.effects.Switch">
 			<impactsOn>
 				<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-					<delay>5000</delay>
+					<delay>1000</delay>
 					<impacts>
 						<Item type="gameMechanics.elements.impacts.SpawnTableObjects">
 							<table href="/Maps/AstralIsle15/SpawnTables/AstralIsle15/Village1Wave1.(SpawnTable).xdb#xpointer(/gameMechanics.map.spawn.SpawnTable)" />
 						</Item>
 						<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-							<delay>3000</delay>
+							<delay>1000</delay>
 							<impacts>
 								<Item type="gameMechanics.elements.impacts.ImpactFindSpawnTable">
 									<impacts>
 										<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-											<delay>2000</delay>
+											<delay>50</delay>
 											<impacts>
 												<Item type="gameMechanics.elements.impacts.ImpactActivateAggro">
 													<value>100</value>
@@ -34,7 +34,7 @@
 					</impacts>
 				</Item>
 				<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-					<delay>65000</delay>
+					<delay>40000</delay>
 					<impacts>
 						<Item type="gameMechanics.elements.impacts.SpawnTableObjects">
 							<table href="/Maps/AstralIsle15/SpawnTables/AstralIsle15/Village1Wave2.(SpawnTable).xdb#xpointer(/gameMechanics.map.spawn.SpawnTable)" />
@@ -60,7 +60,7 @@
 					</impacts>
 				</Item>
 				<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-					<delay>150000</delay>
+					<delay>60000</delay>
 					<impacts>
 						<Item type="gameMechanics.elements.impacts.SpawnTableObjects">
 							<table href="/Maps/AstralIsle15/SpawnTables/AstralIsle15/Village1Wave3.(SpawnTable).xdb#xpointer(/gameMechanics.map.spawn.SpawnTable)" />
@@ -86,7 +86,7 @@
 					</impacts>
 				</Item>
 				<Item type="gameMechanics.elements.impacts.ImpactsDeferred">
-					<delay>255000</delay>
+					<delay>90000</delay>
 					<impacts>
 						<Item type="gameMechanics.elements.impacts.SpawnTableObjects">
 							<table href="/Maps/AstralIsle15/SpawnTables/AstralIsle15/Village1Wave5.(SpawnTable).xdb#xpointer(/gameMechanics.map.spawn.SpawnTable)" />
