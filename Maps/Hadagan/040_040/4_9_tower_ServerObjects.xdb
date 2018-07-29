@@ -1095,7 +1095,7 @@
 			<scanRadius>0</scanRadius>
 			<place type="gameMechanics.map.spawn.SpawnPlacePoint">
 				<tuner href="" />
-				<center x="203.428" y="215.286" z="22.9442" />
+				<center x="233.428" y="215.286" z="22.9442" />
 				<yaw>2.591814</yaw>
 				<pitch>0</pitch>
 				<roll>0</roll>
