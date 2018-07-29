@@ -19,6 +19,13 @@
 								<Item type="gameMechanics.elements.predicates.PredicateIsAvatar" />
 							</predicates>
 							<impactsIf>
+								<Item type="gameMechanics.elements.impacts.ReturningImpact">
+									<impacts>
+										<Item type="gameMechanics.constructor.schemes.buff.BuffAttacherGeneric">
+											<buff href="/Mechanics/Spells/Events/LoreEvents/PsionicHead_03.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
+										</Item>
+									</impacts>
+								</Item>		
 								<Item type="gameMechanics.constructor.schemes.buff.BuffAttacherGeneric">
 									<buff href="/Mechanics/Spells/Events/LoreEvents/PsionicHead_03.(BuffResource).xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
 								</Item>
