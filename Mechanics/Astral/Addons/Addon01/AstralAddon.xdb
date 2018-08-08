@@ -18,8 +18,8 @@
 				<resource href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1</x>
-				<y>0</y>
+				<x>-1</x>
+				<y>-1</y>
 				<astralTier href="TierOldAstralAstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>1</astralLevel>
@@ -27,8 +27,8 @@
 				<resource href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>-1</x>
-				<y>1</y>
+				<x>1</x>
+				<y>-1</y>
 				<astralTier href="TierOldAstralAstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>1</astralLevel>
@@ -45,7 +45,7 @@
 				<resource href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1</x>
+				<x>0</x>
 				<y>1</y>
 				<astralTier href="TierOldAstralAstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
@@ -54,8 +54,8 @@
 				<resource href="/Mechanics/Astral/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1</x>
-				<y>-1</y>
+				<x>-1.75</x>
+				<y>0.75</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
@@ -63,8 +63,8 @@
 				<resource href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>0</x>
-				<y>-1</y>
+				<x>1.75</x>
+				<y>0.75</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
@@ -72,8 +72,8 @@
 				<resource href="/Mechanics/Astral/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>-1</x>
-				<y>-1</y>
+				<x>0</x>
+				<y>-2</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
@@ -81,8 +81,8 @@
 				<resource href="/Mechanics/Astral/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>-1.75</x>
-				<y>0.75</y>
+				<x>0</x>
+				<y>2</y>
 				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>3</astralLevel>
@@ -90,8 +90,8 @@
 				<resource href="/Mechanics/Astral/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1.75</x>
-				<y>0.75</y>
+				<x>2.5</x>
+				<y>1</y>
 				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>3</astralLevel>
@@ -99,8 +99,8 @@
 				<resource href="/Mechanics/Astral/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1.75</x>
-				<y>-0.75</y>
+				<x>2.5</x>
+				<y>-1</y>
 				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>3</astralLevel>
@@ -108,8 +108,8 @@
 				<resource href="/Mechanics/Astral/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>-1.75</x>
-				<y>-0.75</y>
+				<x>1.75</x>
+				<y>-3</y>
 				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="TierOldAstralAvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>3</astralLevel>
@@ -117,8 +117,8 @@
 				<resource href="/Mechanics/Astral/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>-1</x>
-				<y>2</y>
+				<x>-1.75</x>
+				<y>-3</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
@@ -126,8 +126,8 @@
 				<resource href="/Mechanics/Astral/TL_02/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>0</x>
-				<y>2</y>
+				<x>-2.5</x>
+				<y>-1</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
@@ -135,310 +135,13 @@
 				<resource href="/Mechanics/Astral/TL_02/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<x>1</x>
-				<y>2</y>
+				<x>-2.5</x>
+				<y>1</y>
 				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
 				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
 				<astralLevel>2</astralLevel>
 				<avatarLevel>2</avatarLevel>
 				<resource href="/Mechanics/Astral/TL_02/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2</x>
-				<y>2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2.5</x>
-				<y>1</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2.5</x>
-				<y>0</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2.5</x>
-				<y>-1</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2</x>
-				<y>-2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>1</x>
-				<y>-2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>0</x>
-				<y>-2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-1</x>
-				<y>-2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2</x>
-				<y>-2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2.5</x>
-				<y>-1</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2.5</x>
-				<y>0</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2.5</x>
-				<y>1</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2</x>
-				<y>2</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-2.85</x>
-				<y>2.15</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>2.85</x>
-				<y>-2.15</y>
-				<astralTier href="Tier1AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier1AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>2</astralLevel>
-				<avatarLevel>2</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_02/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-3.5</x>
-				<y>0</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-3.5</x>
-				<y>1.5</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-3.5</x>
-				<y>3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-1.75</x>
-				<y>3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>0</x>
-				<y>3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>1.75</x>
-				<y>3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>2</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>1</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>0</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>-1</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>-2</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>3.5</x>
-				<y>-3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>1.75</x>
-				<y>-3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>0</x>
-				<y>-3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-1.75</x>
-				<y>-3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-3.5</x>
-				<y>-3</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<x>-3.5</x>
-				<y>-1.5</y>
-				<astralTier href="Tier2AstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
-				<avatarTier href="Tier2AvatarTier.xdb#xpointer(/gameMechanics.world.bigAstral.AvatarTierLevel)" />
-				<astralLevel>3</astralLevel>
-				<avatarLevel>3</avatarLevel>
-				<resource href="/Mechanics/Astral/TL_03/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
 				<astralTier href="TierNewbieAstralAstralTier.xdb#xpointer(/gameMechanics.world.bigAstral.AstralTierLevel)" />
@@ -480,256 +183,52 @@
 		<edges>
 			<Item>
 				<from href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>
+			<Item>
+				<from href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 				<to href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>
+			<Item>
+				<from href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>
+			<Item>
+				<from href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>
+			<Item>
+				<from href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
 				<from href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 				<to href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<from href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
+				<from href="/Mechanics/Astral/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>			
 			<Item>
 				<from href="/Mechanics/Astral/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>	
+			<Item>
+				<from href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 				<to href="/Mechanics/Astral/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<from href="/Mechanics/Astral/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<from href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
 			</Item>
 			<Item>
-				<from href="/Mechanics/Astral/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
+				<from href="/Mechanics/Astral/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>	
 			<Item>
-				<from href="/Mechanics/Astral/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_02/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_02/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector4/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector5/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector8/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector9/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector10/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector14/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector15/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector16/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector17/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector18/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_03/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_04/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector7/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_04/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/TL_03/Sector13/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_04/Sector1/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector11/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_04/Sector3/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
-			<Item>
-				<from href="/Mechanics/Astral/Sector12/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-				<to href="/Mechanics/Astral/TL_04/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
-			</Item>
+				<from href="/Mechanics/Astral/Sector2/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+				<to href="/Mechanics/Astral/Sector6/Sector.xdb#xpointer(/gameMechanics.world.bigAstral.AstralSectorResource)" />
+			</Item>				
 		</edges>
 	</statics>
 </gameMechanics.world.bigAstral.AstralAddonResource>
