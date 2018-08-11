@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gameMechanics.world.device.SteleResource>
+	<Header>
+		<resourceId>42070948</resourceId>
+	</Header>
+	<name href="AC4pvpCage_Name.txt" />
+	<spawnLocation>
+	</spawnLocation>
+	<visObj href="/Spells/FX/Spells/Fatality/FatalityDruid.(VisObjectTemplate).xdb#xpointer(/client.Scene.VisObjectTemplate)" />
+	<collision />
+	<collisionObject>false</collisionObject>
+	<interactiveObject>false</interactiveObject>
+	<exploitingText/>
+	<scale>0.9</scale>
+	<exploit/>
+	<corpseDuration>600000</corpseDuration>
+</gameMechanics.world.device.SteleResource>
