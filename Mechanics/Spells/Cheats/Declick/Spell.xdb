@@ -5,7 +5,10 @@
 	</Header>
 	<mechanics type="gameMechanics.constructor.schemes.spell.SpellMechanics">
 		<targetImpacts>
-			<Item type="gameMechanics.elements.impacts.ImpactDetachDetachables" />
+			<Item type="gameMechanics.elements.impacts.ImpactChangeClass">
+				<targetRaceClass href="/Mechanics/ClassRaceCombination/HadaganPaladin.xdb#xpointer(/gameMechanics.world.avatar.CharacterRaceClass)"/>
+			</Item>
+			<!--Item type="gameMechanics.elements.impacts.ImpactDetachDetachables" -->
 		</targetImpacts>
 	</mechanics>
 	<Name href="Spell_Name.txt" />
