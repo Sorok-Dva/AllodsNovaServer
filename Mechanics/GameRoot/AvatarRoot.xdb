@@ -442,7 +442,6 @@
 			<secondaryStatGain>0</secondaryStatGain>
 			<talentPoints>1</talentPoints>
 			<fairyExperienceForLevel>0</fairyExperienceForLevel>
-			<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
 		</Item>
 		<Item>
 			<level>2</level>
@@ -467,7 +466,7 @@
 			<secondaryStatGain>1</secondaryStatGain>
 			<talentPoints>2</talentPoints>
 			<fairyExperienceForLevel>100</fairyExperienceForLevel>
-
+			<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
 		</Item>
 		<Item>
 			<level>5</level>
