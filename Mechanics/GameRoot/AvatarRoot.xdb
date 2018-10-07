@@ -421,6 +421,29 @@
 				</Item>
 			</impactsIf>
 		</Item>
+		<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
+			<predicates>
+				<Item type="gameMechanics.constructor.basicElements.PredicateAnd">
+					<predicates>
+						<Item type="gameMechanics.elements.predicates.PredicateCreatureLevel">
+							<minLevel type="gameMechanics.formulas.IntConstantValue">
+								<value>4</value>
+							</minLevel>
+						</Item>
+						<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+							<predicate type="gameMechanics.elements.predicates.PredicateUnlock">
+								<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+							</predicate>
+						</Item>
+					</predicates>
+				</Item>
+			</predicates>
+			<impactsIf>
+				<Item type="gameMechanics.elements.impacts.ImpactGrantUnlock">
+					<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+				</Item>
+			</impactsIf>
+		</Item>
 	</onloadImpacts>
 	<pvpKillNotification href="ClientData/Progress/ProgressKillsCounterData.(ClientData).xdb#xpointer(/gameMechanics.world.ClientData)" />
 	<statPointsPerLevel type="gameMechanics.elements.calcers.CalcerIf">
@@ -442,6 +465,7 @@
 			<secondaryStatGain>0</secondaryStatGain>
 			<talentPoints>1</talentPoints>
 			<fairyExperienceForLevel>0</fairyExperienceForLevel>
+
 		</Item>
 		<Item>
 			<level>2</level>
@@ -466,7 +490,7 @@
 			<secondaryStatGain>1</secondaryStatGain>
 			<talentPoints>2</talentPoints>
 			<fairyExperienceForLevel>100</fairyExperienceForLevel>
-			<unlock href="/Mechanics/Unlocks/Quest/StratInstance_Unlock/StartInstance_Unlock.(UnlockResource).xdb#xpointer(/gameMechanics.constructor.schemes.unlock.UnlockResource)" />
+
 		</Item>
 		<Item>
 			<level>5</level>
