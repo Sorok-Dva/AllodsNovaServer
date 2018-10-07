@@ -450,7 +450,7 @@
 			<primaryStatGain>1</primaryStatGain>
 			<secondaryStatGain>0</secondaryStatGain>
 			<talentPoints>1</talentPoints>
-			<fairyExperienceForLevel>12</fairyExperienceForLevel>
+			<fairyExperienceForLevel>0</fairyExperienceForLevel>
 		</Item>
 		<Item>
 			<level>3</level>
@@ -458,7 +458,7 @@
 			<primaryStatGain>0</primaryStatGain>
 			<secondaryStatGain>0</secondaryStatGain>
 			<talentPoints>1</talentPoints>
-			<fairyExperienceForLevel>45</fairyExperienceForLevel>
+			<fairyExperienceForLevel>0</fairyExperienceForLevel>
 		</Item>
 		<Item>
 			<level>4</level>
@@ -467,7 +467,7 @@
 			<secondaryStatGain>1</secondaryStatGain>
 			<talentPoints>2</talentPoints>
 			<fairyExperienceForLevel>100</fairyExperienceForLevel>
-			
+
 		</Item>
 		<Item>
 			<level>5</level>
@@ -893,7 +893,7 @@
 			<talentPoints>1</talentPoints>
 			<fairyExperienceForLevel>17756</fairyExperienceForLevel>
 		</Item>
-		
+
 	</avatarLevels>
 	<pvpFlagDurationMinutes>5</pvpFlagDurationMinutes>
 	<startingCurrencies>
