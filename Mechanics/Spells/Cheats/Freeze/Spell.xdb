@@ -1,53 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
+<gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
 	<Header>
 		<resourceId>59311</resourceId>
 	</Header>
+	<Name href="ClassExchange_Bard.(SpellCasterSelf).Name.txt" />
+	<Description href="ClassExchange_Bard.(SpellCasterSelf).Description.txt" />
+	<image href="/Interface/Icons/Misc/Itemmall/IMTransmutatorDruid.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
+	<prepareDuration>10000</prepareDuration>
+	<targetType>STTSelf</targetType>
 	<mechanics type="gameMechanics.constructor.schemes.spell.SpellMechanics">
-		<targetImpacts>
-			<Item type="gameMechanics.elements.impacts.ImpactIfTarget">
-				<predicates>
-					<Item type="gameMechanics.elements.predicates.PredicateIsAvatar" />
-				</predicates>
-				<impactsIf>
-					<Item type="gameMechanics.elements.impacts.ImpactInstantiating">
-						<impacts>
-							<Item type="gameMechanics.elements.impacts.ImpactSummon">
-								<destination type="gameMechanics.map.destination.RelativePos" />
-								<impacts>
-									<Item type="gameMechanics.elements.impacts.ReturningInstantiatingImpactGeneric">
-										<impacts>
-											<Item type="gameMechanics.constructor.schemes.buff.BuffAttacherGeneric">
-											<buff href="Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
-											</Item>
-										</impacts>
-									</Item>
-								</impacts>
-								<object href="/Items/InteractiveObjects/ArchipelagoContested4/AC4pvpCage/AC4pvpCage.(SteleResource).xdb#xpointer(/gameMechanics.world.device.SteleResource)"  />
-							</Item>
-						</impacts>
-					</Item>
-				</impactsIf>
-				<impactsElse>
-					<Item type="gameMechanics.constructor.schemes.buff.BuffAttacherGeneric">
-						<buff href="Buff.xdb#xpointer(/gameMechanics.constructor.schemes.buff.BuffResource)" />
-					</Item>
-				</impactsElse>
+		<cooldown>
+			<stage>Launch</stage>
+			<duration>1</duration>
+			<group href="" />
+		</cooldown>
+		<casterConditions>
+			<Item type="gameMechanics.elements.predicates.PredicateNotInCombat" />
+			<Item type="gameMechanics.constructor.basicElements.PredicateNot">
+				<predicate type="gameMechanics.elements.predicates.PredicateCharacterClass">
+					<characterClass href="/Mechanics/Classes/Bard.xdb#xpointer(/gameMechanics.world.avatar.CharacterClass)" />
+				</predicate>
 			</Item>
-		</targetImpacts>
+		</casterConditions>
+		<casterResources>
+			<Item type="gameMechanics.elements.resources.ResourceActiveItem" />
+		</casterResources>
+		<casterImpacts>
+			<Item type="gameMechanics.elements.impacts.ImpactIfCaster">
+				<predicates>
+					<Item type="gameMechanics.elements.predicates.PredicateFaction">
+						<faction href="/World/Factions/Empire.xdb#xpointer(/gameMechanics.world.creature.Faction)" />
+					</Item>
+				</predicates>
+				<impacts>
+					<Item type="gameMechanics.elements.impacts.ImpactChangeClass">
+						<targetRaceClass href="/Mechanics/ClassRaceCombination/KaniaBard.xdb#xpointer(/gameMechanics.world.avatar.CharacterRaceClass)"/>
+					</Item>
+				</impacts>
+				<elseImpacts>
+					<Item type="gameMechanics.elements.impacts.ImpactChangeClass">
+						<targetRaceClass href="/Mechanics/ClassRaceCombination/HadaganBard.xdb#xpointer(/gameMechanics.world.avatar.CharacterRaceClass)"/>
+					</Item>
+				</elseImpacts>
+			</Item>
+		</casterImpacts>
 	</mechanics>
-	<Name href="Spell_Name.txt" />
-	<image href="/Interface/Icons/Spells/Mage/MageIceArrow.(UISingleTexture).xdb#xpointer(/UISingleTexture)" />
-	<DefaultAction>12</DefaultAction>
-	<speed>0</speed>
-	<range type="gameMechanics.elements.calcers.FloatData">
-		<value>100</value>
-	</range>
-	<prepareDuration>0</prepareDuration>
-	<needLos>false</needLos>
-	<element>HOLY</element>
-	<targetType>STTCurrentTarget</targetType>
-	<isAggro>false</isAggro>
-	<triggersGlobalCooldown>false</triggersGlobalCooldown>
-	<iffPolicy>FriendsEnemies</iffPolicy>
-</gameMechanics.constructor.schemes.spell.singleTarget.SpellSingleTarget>
+</gameMechanics.constructor.schemes.spell.casterSelf.SpellCasterSelf>
