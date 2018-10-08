@@ -23,7 +23,7 @@
 			</Item>
 		</casterConditions>
 		<casterResources>
-			<Item type="gameMechanics.elements.resources.ResourceActiveItem" />
+			<!--Item type="gameMechanics.elements.resources.ResourceActiveItem" /-->
 		</casterResources>
 		<casterImpacts>
 			<Item type="gameMechanics.elements.impacts.ImpactIfCaster">
